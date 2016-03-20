@@ -1,20 +1,19 @@
 #include <iostream>
 #include <fstream>
-#include <cstring>
+#include <string>
 using namespace std;
 
 int main(int argc, char* argv[]){
-	cout << argc << endl;
-	if (argc == 1)
-		cout << "Real mode" << endl;
-	else if(static_cast<string>(argv[1]) == "test"){
-		cout << "Test Mode" << endl;
+	string line;
+	ifstream logFile ("log\\ktane.log");
+	if( logFile.good() ){
+		while( logFile.good() ){
+			getline (logFile, line);
+		}
+		cout << "done" << endl;
+		logFile.close();
 	}
-	else{
-		cout << "Not a valid mode" << endl;
-		return 0;
-	}
-	//ifstream fin;
-	//fin.open("logfile");
+	else cout << "Unable to open file" << endl;
+	
 	return 0;
 }
