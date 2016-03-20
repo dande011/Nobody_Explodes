@@ -12,6 +12,7 @@ using namespace std;
 //using namespace System::IO::Ports;
 
 std::string getTime();
+void serialOut(int val);
 
 int main(int argc, char* argv[]){
 	// Open the logfile and ensure that it is open before continuing
@@ -74,4 +75,24 @@ std::string getTime()
 	timeStr = std::to_string(1900+timeInfo->tm_year) + "-" +  month + "-" + day + " " + hour + ":" + minute + ":" + second;
 	
 	return(timeStr);
+}
+
+void serialOut(std::string val)
+{
+	
+	ofstream dat;
+	//Write value to text file.
+	dat.open("dat.dat");
+	dat << val;
+	dat.close();
+	//Shennanigans
+	std::string comPort = "COM3";
+	std::string command = "cmd /c start "" /min putty -serial "+ comPort +" -sercfg 9600,8,n,1,N -m \"test.txt\"";
+	system(command.c_str());
+	
+	system("taskkill /F /IM putty.exe");
+	
+	return();
+	
+	
 }

@@ -1,27 +1,28 @@
 #include <stdio.h>
+#include <time.h>
 #include <string>
+#include <iostream>
+#include <fstream>
+#include <iomanip>
+#include <sstream>
 
 using namespace std;
 
-int main(std::string currTime)
+int main()
 {
-	int i;
-	int pos;
+	std::string value;
+	ofstream dat;
+	dat.open("dat.dat");
 	
-	//For testing
-	currTime = "2016-03-20 07:36:22";
+	dat << value;
 	
-	std::string arr[]
-	arr[0] = " INFO 2016-03-20 07:36:22,378 [BombGenerator] Generator settings: Time: 300, NumStrikes: 3, FrontFaceOnly: True3 Pools:[Wires] Count: 1[BigButton] Count: 1[Keypad] Count: 1";
-	arr[1] = "DEBUG 2016-03-20 07:53:27,940 [Assets.Scripts.Pacing.PaceMaker] Round start! Mission: The First Bomb Pacing Enabled: False";
-	arr[2] = "DEBUG 2016-03-20 07:38:06,115 [Bomb] Strike! 1 / 3 strikes";
-	arr[3] = "DEBUG 2016-03-20 07:38:06,958 [Bomb] Strike! 2 / 3 strikes";
-	arr[4] = " INFO 2016-03-20 07:38:16,121 [Bomb] Boom";
+	dat.close();
 	
-	for(i = 0,i++,i<5)
-	{
-		pos = arr[i].find(currTime);
-		
+	std::string comPort = "COM3";
+	std::string command = "cmd /c start "" /min putty -serial "+ comPort +" -sercfg 9600,8,n,1,N -m \"test.txt\"";
+	system(command.c_str());
+	
+	system("taskkill /F /IM putty.exe");
 	
 	return(0);
 }
