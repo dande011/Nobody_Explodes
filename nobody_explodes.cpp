@@ -9,12 +9,8 @@
 using namespace std;
 
 std::string getTime();
-<<<<<<< HEAD
 int getPos(istream& logFile);
 int findStats(istream& logFile, string& time, bool& start, bool& end, int& strike, bool& boom);
-=======
-void serialOut(int val);
->>>>>>> 650d0924e55919705426beed79ac40c35a9e0999
 
 int main(int argc, char* argv[]){
 	bool boom = false;
@@ -89,7 +85,6 @@ std::string getTime()
 	return(timeStr);
 }
 
-<<<<<<< HEAD
 int getPos(istream& logFile)
 {
 	//cout << "Begin getPos" << endl;
@@ -160,7 +155,8 @@ int findStats(istream& logFile, string& time, bool& start, bool& end, int& strik
 	}
 	//cout << "End findStats()" << endl;
 	return 0;
-=======
+}
+
 void serialOut(std::string val)
 {
 	
@@ -176,8 +172,7 @@ void serialOut(std::string val)
 	
 	system("taskkill /F /IM putty.exe");
 	
-	return();
+	return;
 	
 	
->>>>>>> 650d0924e55919705426beed79ac40c35a9e0999
 }
