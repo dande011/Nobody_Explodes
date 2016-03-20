@@ -1,0 +1,660 @@
+﻿ INFO 2016-03-20 07:32:55,790 [Logging] Logging successfully configured.
+ INFO 2016-03-20 07:32:55,799 [Logging] Logging start.
+ INFO 2016-03-20 07:32:56,505 [Assets.Scripts.Services.Steam.ServicesSteam] Steamworks.NET is initialized. Now logged in as StJonie4!
+ INFO 2016-03-20 07:32:56,508 [Assets.Scripts.Platform.Common.IO.FileUtilityHelper] Attempting to load "C:/Users/david/AppData/LocalLow/Steel Crate Games/Keep Talking and Nobody Explodes\demoSettings.xml"...
+ WARN 2016-03-20 07:32:56,510 [Logging] Warning: [Assets.Scripts.Platform.Common.IO.FileUtilityHelper] Failed to load "C:/Users/david/AppData/LocalLow/Steel Crate Games/Keep Talking and Nobody Explodes\demoSettings.xml": Could not find file "C:\Users\david\AppData\LocalLow\Steel Crate Games\Keep Talking and Nobody Explodes\demoSettings.xml".
+
+
+ WARN 2016-03-20 07:32:56,510 [Assets.Scripts.Platform.Common.IO.FileUtilityHelper] Failed to load "C:/Users/david/AppData/LocalLow/Steel Crate Games/Keep Talking and Nobody Explodes\demoSettings.xml": Could not find file "C:\Users\david\AppData\LocalLow\Steel Crate Games\Keep Talking and Nobody Explodes\demoSettings.xml".
+ INFO 2016-03-20 07:32:56,513 [Assets.Scripts.DemoManager] Failed to load demo settings from user path, looking for demoSettings.xml next to executable.
+ INFO 2016-03-20 07:32:56,513 [Assets.Scripts.Platform.Common.IO.FileUtilityHelper] Attempting to load "demoSettings.xml"...
+ INFO 2016-03-20 07:32:56,516 [Assets.Scripts.Platform.Common.IO.FileUtilityHelper] Successfully loaded "demoSettings.xml".
+ INFO 2016-03-20 07:32:56,517 [Assets.Scripts.DemoManager] Saving demo settings.
+ INFO 2016-03-20 07:32:56,518 [Assets.Scripts.Platform.Common.IO.FileUtilityHelper] Attempting to save "C:/Users/david/AppData/LocalLow/Steel Crate Games/Keep Talking and Nobody Explodes\demoSettings.xml"...
+ INFO 2016-03-20 07:32:56,522 [Assets.Scripts.Platform.Common.IO.FileUtilityHelper] Successfully saved "C:/Users/david/AppData/LocalLow/Steel Crate Games/Keep Talking and Nobody Explodes\demoSettings.xml".
+ INFO 2016-03-20 07:32:56,523 [Assets.Scripts.DemoManager] Demo settings: [Mode: Off], [DisableAlarmClockSound: False], [SkipVerificationFlow: False], [HideManualWebsiteReference: False], [ForgetLastGameSettings: False]
+DEBUG 2016-03-20 07:32:56,525 [Assets.Scripts.Platform.PC.PCPlatformUtil] VRModeRequested: True
+ INFO 2016-03-20 07:32:56,526 [Assets.Scripts.Platform.PC.PCPlatformUtil] Attempting to initialize OVR Manager...
+ WARN 2016-03-20 07:32:56,553 [Logging] Warning: [OVR] Compositor failed to initialize.
+
+ WARN 2016-03-20 07:32:56,554 [Logging] Warning: Runtime is not present or no Rift attached. Running without VR.
+
+ INFO 2016-03-20 07:32:56,559 [Assets.Scripts.Platform.PC.PCPlatformUtil] No HMD detected. Falling back to non-VR mode.
+ INFO 2016-03-20 07:32:56,560 [Assets.Scripts.Platform.PC.PCPlatformUtil] Instantiating FixedCameraRig.
+ INFO 2016-03-20 07:32:58,930 [LoadingManager] Loading: mainScene
+ INFO 2016-03-20 07:32:59,539 [LoadingManager] Finished loading: 0.61 sec(s)
+DEBUG 2016-03-20 07:33:03,004 [LoadingManager] Received mouse input to continue, loading main scene.
+ INFO 2016-03-20 07:33:03,512 [Assets.Scripts.Platform.Common.IO.FileUtilityHelper] Attempting to load "C:/Users/david/AppData/LocalLow/Steel Crate Games/Keep Talking and Nobody Explodes\playerSettings.xml"...
+ INFO 2016-03-20 07:33:03,515 [Assets.Scripts.Platform.Common.IO.FileUtilityHelper] Successfully loaded "C:/Users/david/AppData/LocalLow/Steel Crate Games/Keep Talking and Nobody Explodes\playerSettings.xml".
+ INFO 2016-03-20 07:33:03,517 [KTInputManager] InControl Platform: WINDOWS 10 PRO 32BIT INTEL(R) CORE(TM) I7-5930K CPU @ 3.50GHZ (16280 MB)
+ INFO 2016-03-20 07:33:03,518 [KTInputManager] InControl Devices: 0
+ INFO 2016-03-20 07:33:03,518 [KTInputManager] Active device: None () [Supported] [Platform: WINDOWS 10 PRO 32BIT INTEL(R) CORE(TM) I7-5930K CPU @ 3.50GHZ (16280 MB)]
+DEBUG 2016-03-20 07:33:03,519 [Assets.Scripts.Platform.PC.PCPlatformUtil] VRModeRequested: True
+ INFO 2016-03-20 07:33:03,520 [Assets.Scripts.Platform.PC.PCPlatformUtil] Attempting to initialize OVR Manager...
+ WARN 2016-03-20 07:33:03,522 [Logging] Warning: Runtime is not present or no Rift attached. Running without VR.
+
+ INFO 2016-03-20 07:33:03,522 [Assets.Scripts.Platform.PC.PCPlatformUtil] No HMD detected. Falling back to non-VR mode.
+ INFO 2016-03-20 07:33:03,524 [Assets.Scripts.Platform.PC.PCPlatformUtil] Instantiating FixedCameraRig.
+ INFO 2016-03-20 07:33:03,529 [Assets.Scripts.Progression.ProgressionManager] Loading progression data...
+ INFO 2016-03-20 07:33:03,530 [Assets.Scripts.Platform.Common.IO.FileUtilityHelper] Attempting to load "C:/Users/david/AppData/LocalLow/Steel Crate Games/Keep Talking and Nobody Explodes\progression.xml"...
+ WARN 2016-03-20 07:33:03,531 [Logging] Warning: [Assets.Scripts.Platform.Common.IO.FileUtilityHelper] Failed to load "C:/Users/david/AppData/LocalLow/Steel Crate Games/Keep Talking and Nobody Explodes\progression.xml": Could not find file "C:\Users\david\AppData\LocalLow\Steel Crate Games\Keep Talking and Nobody Explodes\progression.xml".
+
+
+ WARN 2016-03-20 07:33:03,531 [Assets.Scripts.Platform.Common.IO.FileUtilityHelper] Failed to load "C:/Users/david/AppData/LocalLow/Steel Crate Games/Keep Talking and Nobody Explodes\progression.xml": Could not find file "C:\Users\david\AppData\LocalLow\Steel Crate Games\Keep Talking and Nobody Explodes\progression.xml".
+ INFO 2016-03-20 07:33:03,533 [Assets.Scripts.Progression.ProgressionManager] No progression data found.
+ INFO 2016-03-20 07:33:03,535 [Assets.Scripts.Progression.ProgressionManager] Progression summary:
+ INFO 2016-03-20 07:33:03,535 [Assets.Scripts.Progression.ProgressionManager] Last Unlocked Bomb Classification: (None)
+ INFO 2016-03-20 07:33:03,536 [Assets.Scripts.Progression.ProgressionManager] No mission progression found.
+ INFO 2016-03-20 07:33:03,539 [Assets.Scripts.Missions.MissionManager] MissionManager initialized. 34 missions available.
+ INFO 2016-03-20 07:33:03,540 [Assets.Scripts.Records.RecordManager] Loading records from records.xml...
+ INFO 2016-03-20 07:33:03,541 [Assets.Scripts.Platform.Common.IO.FileUtilityHelper] Attempting to load "C:/Users/david/AppData/LocalLow/Steel Crate Games/Keep Talking and Nobody Explodes\records.xml"...
+ WARN 2016-03-20 07:33:03,542 [Logging] Warning: [Assets.Scripts.Platform.Common.IO.FileUtilityHelper] Failed to load "C:/Users/david/AppData/LocalLow/Steel Crate Games/Keep Talking and Nobody Explodes\records.xml": Could not find file "C:\Users\david\AppData\LocalLow\Steel Crate Games\Keep Talking and Nobody Explodes\records.xml".
+
+
+ WARN 2016-03-20 07:33:03,542 [Assets.Scripts.Platform.Common.IO.FileUtilityHelper] Failed to load "C:/Users/david/AppData/LocalLow/Steel Crate Games/Keep Talking and Nobody Explodes\records.xml": Could not find file "C:\Users\david\AppData\LocalLow\Steel Crate Games\Keep Talking and Nobody Explodes\records.xml".
+ INFO 2016-03-20 07:33:03,544 [Assets.Scripts.Records.RecordManager] No records found.
+ INFO 2016-03-20 07:33:03,545 [Assets.Scripts.Records.RecordManager] Loading best time records from best_times.xml...
+ INFO 2016-03-20 07:33:03,546 [Assets.Scripts.Platform.Common.IO.FileUtilityHelper] Attempting to load "C:/Users/david/AppData/LocalLow/Steel Crate Games/Keep Talking and Nobody Explodes\best_times.xml"...
+ WARN 2016-03-20 07:33:03,548 [Logging] Warning: [Assets.Scripts.Platform.Common.IO.FileUtilityHelper] Failed to load "C:/Users/david/AppData/LocalLow/Steel Crate Games/Keep Talking and Nobody Explodes\best_times.xml": Could not find file "C:\Users\david\AppData\LocalLow\Steel Crate Games\Keep Talking and Nobody Explodes\best_times.xml".
+
+
+ WARN 2016-03-20 07:33:03,548 [Assets.Scripts.Platform.Common.IO.FileUtilityHelper] Failed to load "C:/Users/david/AppData/LocalLow/Steel Crate Games/Keep Talking and Nobody Explodes\best_times.xml": Could not find file "C:\Users\david\AppData\LocalLow\Steel Crate Games\Keep Talking and Nobody Explodes\best_times.xml".
+ INFO 2016-03-20 07:33:03,550 [Assets.Scripts.Records.RecordManager] No best time records found.
+ INFO 2016-03-20 07:33:03,551 [Assets.Scripts.Records.RecordManager] 0 recent records found:
+ INFO 2016-03-20 07:33:03,552 [Assets.Scripts.Records.RecordManager] Recent Record Summary: Success: 0 ExplodeDueToStrikes: 0 ExplodeDueToTime: 0
+ INFO 2016-03-20 07:33:03,552 [Assets.Scripts.Records.RecordManager] 0 Best Time records found:
+ INFO 2016-03-20 07:33:03,555 [Assets.Scripts.Stats.StatsManager] Loading stats from stats.xml...
+ INFO 2016-03-20 07:33:03,556 [Assets.Scripts.Platform.Common.IO.FileUtilityHelper] Attempting to load "C:/Users/david/AppData/LocalLow/Steel Crate Games/Keep Talking and Nobody Explodes\stats.xml"...
+ WARN 2016-03-20 07:33:03,557 [Logging] Warning: [Assets.Scripts.Platform.Common.IO.FileUtilityHelper] Failed to load "C:/Users/david/AppData/LocalLow/Steel Crate Games/Keep Talking and Nobody Explodes\stats.xml": Could not find file "C:\Users\david\AppData\LocalLow\Steel Crate Games\Keep Talking and Nobody Explodes\stats.xml".
+
+
+ WARN 2016-03-20 07:33:03,557 [Assets.Scripts.Platform.Common.IO.FileUtilityHelper] Failed to load "C:/Users/david/AppData/LocalLow/Steel Crate Games/Keep Talking and Nobody Explodes\stats.xml": Could not find file "C:\Users\david\AppData\LocalLow\Steel Crate Games\Keep Talking and Nobody Explodes\stats.xml".
+ INFO 2016-03-20 07:33:03,559 [Assets.Scripts.Stats.StatsManager] No stats found.
+ INFO 2016-03-20 07:33:03,560 [Assets.Scripts.Stats.StatsManager] Recorded Stats:
+ INFO 2016-03-20 07:33:03,561 [Assets.Scripts.Stats.StatsManager] Recorded Achievements:
+ INFO 2016-03-20 07:33:03,562 [SceneManager] Creating game states...
+DEBUG 2016-03-20 07:33:03,605 [MissionTableOfContentsPageManager] Showing ToC page 0.
+DEBUG 2016-03-20 07:33:03,652 [PrefabOverride] Material override: InputBased: True, CurrentControlType: Mouse, Path: "PC/Materials/DossierMenu/MouseControls_Dossier"
+DEBUG 2016-03-20 07:33:03,654 [PrefabOverride] Material override: InputBased: True, CurrentControlType: Mouse, Path: "PC/Materials/DossierMenu/MouseControls_Dossier"
+DEBUG 2016-03-20 07:33:03,659 [PrefabOverride] Material override: InputBased: True, CurrentControlType: Mouse, Path: "PC/Materials/controls_poster_mouse"
+ INFO 2016-03-20 07:33:03,690 [UnlockState] Entered UnlockState of DisplayType FirstLaunch
+DEBUG 2016-03-20 07:33:03,722 [PrefabOverride] Material override: InputBased: True, CurrentControlType: Mouse, Path: "PC/Materials/DossierMenu/MouseControls_Dossier"
+DEBUG 2016-03-20 07:33:03,724 [PrefabOverride] Material override: InputBased: True, CurrentControlType: Mouse, Path: "PC/Materials/DossierMenu/MouseControls_Dossier"
+DEBUG 2016-03-20 07:33:03,786 [PrefabOverride] Prefab override: InputBased: True, CurrentControlType: Mouse, Path: "PC/Prefabs/TitleMenu/ControlsTutorialDiagramMouse"
+DEBUG 2016-03-20 07:33:03,802 [PrefabOverride] Material override: InputBased: True, CurrentControlType: Mouse, Path: "PC/Materials/controls_poster_unlit_mouse"
+ INFO 2016-03-20 07:33:03,812 [SceneManager] Fading in...
+ INFO 2016-03-20 07:33:03,929 [Assets.Scripts.Services.Steam.ServicesSteam] Received user stats from Steam for game id 341800
+ INFO 2016-03-20 07:33:03,932 [Assets.Scripts.Services.Steam.ServicesSteam] Finished merging existing stats and achievements
+ INFO 2016-03-20 07:33:03,934 [Assets.Scripts.Services.Steam.ServicesSteam] Sent request to store stats to Steam.
+DEBUG 2016-03-20 07:34:14,177 [WireSetComponent] Wires.Count is now 5
+DEBUG 2016-03-20 07:35:06,986 [WireSetComponent] Wires.Count is now 5
+ INFO 2016-03-20 07:35:45,701 [SceneManager] Fading out...
+ INFO 2016-03-20 07:35:46,207 [Assets.Scripts.Platform.Common.IO.FileUtilityHelper] Attempting to save "C:/Users/david/AppData/LocalLow/Steel Crate Games/Keep Talking and Nobody Explodes\progression.xml"...
+ INFO 2016-03-20 07:35:46,217 [Assets.Scripts.Platform.Common.IO.FileUtilityHelper] Successfully saved "C:/Users/david/AppData/LocalLow/Steel Crate Games/Keep Talking and Nobody Explodes\progression.xml".
+ INFO 2016-03-20 07:35:46,218 [Assets.Scripts.Services.Steam.ServicesSteam] Sent request to store stats to Steam.
+ INFO 2016-03-20 07:35:46,219 [SceneManager] Fading in...
+ INFO 2016-03-20 07:35:46,220 [State] Enter SetupState
+DEBUG 2016-03-20 07:36:05,983 [MissionTableOfContentsPageManager] Showing ToC page 0.
+ INFO 2016-03-20 07:36:13,907 [State] Preparing to exit setup state
+ INFO 2016-03-20 07:36:13,908 [SceneManager] Fading out...
+ INFO 2016-03-20 07:36:16,036 [Assets.Scripts.Platform.Common.IO.FileUtilityHelper] Attempting to load "C:/Users/david/AppData/LocalLow/Steel Crate Games/Keep Talking and Nobody Explodes\playerSettings.xml"...
+ INFO 2016-03-20 07:36:16,038 [Assets.Scripts.Platform.Common.IO.FileUtilityHelper] Successfully loaded "C:/Users/david/AppData/LocalLow/Steel Crate Games/Keep Talking and Nobody Explodes\playerSettings.xml".
+ INFO 2016-03-20 07:36:16,038 [KTInputManager] InControl Platform: WINDOWS 10 PRO 32BIT INTEL(R) CORE(TM) I7-5930K CPU @ 3.50GHZ (16280 MB)
+ INFO 2016-03-20 07:36:16,040 [KTInputManager] InControl Devices: 0
+ INFO 2016-03-20 07:36:16,040 [KTInputManager] Active device: None () [Supported] [Platform: WINDOWS 10 PRO 32BIT INTEL(R) CORE(TM) I7-5930K CPU @ 3.50GHZ (16280 MB)]
+ INFO 2016-03-20 07:36:22,063 [Assets.Scripts.Platform.Common.IO.FileUtilityHelper] Attempting to load "C:/Users/david/AppData/LocalLow/Steel Crate Games/Keep Talking and Nobody Explodes\playerSettings.xml"...
+ INFO 2016-03-20 07:36:22,065 [Assets.Scripts.Platform.Common.IO.FileUtilityHelper] Successfully loaded "C:/Users/david/AppData/LocalLow/Steel Crate Games/Keep Talking and Nobody Explodes\playerSettings.xml".
+ INFO 2016-03-20 07:36:22,066 [KTInputManager] InControl Platform: WINDOWS 10 PRO 32BIT INTEL(R) CORE(TM) I7-5930K CPU @ 3.50GHZ (16280 MB)
+ INFO 2016-03-20 07:36:22,067 [KTInputManager] InControl Devices: 0
+ INFO 2016-03-20 07:36:22,067 [KTInputManager] Active device: None () [Supported] [Platform: WINDOWS 10 PRO 32BIT INTEL(R) CORE(TM) I7-5930K CPU @ 3.50GHZ (16280 MB)]
+DEBUG 2016-03-20 07:36:22,068 [Assets.Scripts.Platform.PC.PCPlatformUtil] VRModeRequested: True
+ INFO 2016-03-20 07:36:22,070 [Assets.Scripts.Platform.PC.PCPlatformUtil] Attempting to initialize OVR Manager...
+ WARN 2016-03-20 07:36:22,081 [Logging] Warning: Runtime is not present or no Rift attached. Running without VR.
+
+ INFO 2016-03-20 07:36:22,082 [Assets.Scripts.Platform.PC.PCPlatformUtil] No HMD detected. Falling back to non-VR mode.
+ INFO 2016-03-20 07:36:22,083 [Assets.Scripts.Platform.PC.PCPlatformUtil] Instantiating FixedCameraRig.
+ INFO 2016-03-20 07:36:22,085 [Assets.Scripts.Missions.MissionManager] Mission manager already initialized!
+ INFO 2016-03-20 07:36:22,086 [SceneManager] Creating game states...
+DEBUG 2016-03-20 07:36:22,120 [PrefabOverride] Material override: InputBased: True, CurrentControlType: Mouse, Path: "PC/Materials/DossierMenu/MouseControls_Dossier"
+DEBUG 2016-03-20 07:36:22,122 [PrefabOverride] Material override: InputBased: True, CurrentControlType: Mouse, Path: "PC/Materials/DossierMenu/MouseControls_Dossier"
+DEBUG 2016-03-20 07:36:22,124 [PrefabOverride] Material override: InputBased: True, CurrentControlType: Mouse, Path: "PC/Materials/controls_poster_mouse"
+DEBUG 2016-03-20 07:36:22,138 [Assets.Scripts.Rules.WireRuleSetGenerator] Creating 3 rules for 3 wires.
+DEBUG 2016-03-20 07:36:22,141 [Assets.Scripts.Rules.WireRuleSetGenerator] 1 queries for rule. 2 wires available, 5 colors available.
+DEBUG 2016-03-20 07:36:22,142 [Assets.Scripts.Rules.WireRuleSetGenerator] CalculatePossibleQueryableProperties: 2 querySets, 2 wiresAvailable, compoundAllowed = False.
+DEBUG 2016-03-20 07:36:22,144 [Assets.Scripts.Rules.WireRuleSetGenerator] 4 properties matched.
+DEBUG 2016-03-20 07:36:22,147 [Assets.Scripts.Rules.WireRuleSetGenerator] 5 possible solutions. Chosen: cut the last {color} wire
+DEBUG 2016-03-20 07:36:22,148 [Assets.Scripts.Rules.WireRuleSetGenerator] Added rule: Query: there is more than one blue wire, Solution: cut the last blue wire
+DEBUG 2016-03-20 07:36:22,150 [Assets.Scripts.Rules.WireRuleSetGenerator] 1 queries for rule. 2 wires available, 5 colors available.
+DEBUG 2016-03-20 07:36:22,151 [Assets.Scripts.Rules.WireRuleSetGenerator] CalculatePossibleQueryableProperties: 2 querySets, 2 wiresAvailable, compoundAllowed = False.
+DEBUG 2016-03-20 07:36:22,152 [Assets.Scripts.Rules.WireRuleSetGenerator] 4 properties matched.
+DEBUG 2016-03-20 07:36:22,153 [Assets.Scripts.Rules.WireRuleSetGenerator] 3 possible solutions. Chosen: cut the last wire
+DEBUG 2016-03-20 07:36:22,154 [Assets.Scripts.Rules.WireRuleSetGenerator] Added rule: Query: the last wire is white, Solution: cut the last wire
+DEBUG 2016-03-20 07:36:22,155 [Assets.Scripts.Rules.WireRuleSetGenerator] 1 queries for rule. 2 wires available, 5 colors available.
+DEBUG 2016-03-20 07:36:22,156 [Assets.Scripts.Rules.WireRuleSetGenerator] CalculatePossibleQueryableProperties: 2 querySets, 2 wiresAvailable, compoundAllowed = False.
+DEBUG 2016-03-20 07:36:22,157 [Assets.Scripts.Rules.WireRuleSetGenerator] 4 properties matched.
+DEBUG 2016-03-20 07:36:22,158 [Assets.Scripts.Rules.WireRuleSetGenerator] 3 possible solutions. Chosen: cut the second wire
+DEBUG 2016-03-20 07:36:22,159 [Assets.Scripts.Rules.WireRuleSetGenerator] Added rule: Query: there are no red wires, Solution: cut the second wire
+DEBUG 2016-03-20 07:36:22,161 [Assets.Scripts.Rules.WireRuleSetGenerator] Creating 4 rules for 4 wires.
+DEBUG 2016-03-20 07:36:22,162 [Assets.Scripts.Rules.WireRuleSetGenerator] 2 queries for rule. 3 wires available, 5 colors available.
+DEBUG 2016-03-20 07:36:22,163 [Assets.Scripts.Rules.WireRuleSetGenerator] CalculatePossibleQueryableProperties: 2 querySets, 3 wiresAvailable, compoundAllowed = False.
+DEBUG 2016-03-20 07:36:22,164 [Assets.Scripts.Rules.WireRuleSetGenerator] 4 properties matched.
+DEBUG 2016-03-20 07:36:22,165 [Assets.Scripts.Rules.WireRuleSetGenerator] CalculatePossibleQueryableProperties: 2 querySets, 2 wiresAvailable, compoundAllowed = True.
+DEBUG 2016-03-20 07:36:22,166 [Assets.Scripts.Rules.WireRuleSetGenerator] 6 properties matched.
+DEBUG 2016-03-20 07:36:22,167 [Assets.Scripts.Rules.WireRuleSetGenerator] 4 possible solutions. Chosen: cut the first wire
+DEBUG 2016-03-20 07:36:22,168 [Assets.Scripts.Rules.WireRuleSetGenerator] Added rule: Query: the last wire is yellow and there are no red wires, Solution: cut the first wire
+DEBUG 2016-03-20 07:36:22,169 [Assets.Scripts.Rules.WireRuleSetGenerator] 2 queries for rule. 3 wires available, 5 colors available.
+DEBUG 2016-03-20 07:36:22,170 [Assets.Scripts.Rules.WireRuleSetGenerator] CalculatePossibleQueryableProperties: 2 querySets, 3 wiresAvailable, compoundAllowed = False.
+DEBUG 2016-03-20 07:36:22,171 [Assets.Scripts.Rules.WireRuleSetGenerator] 4 properties matched.
+DEBUG 2016-03-20 07:36:22,172 [Assets.Scripts.Rules.WireRuleSetGenerator] CalculatePossibleQueryableProperties: 2 querySets, 1 wiresAvailable, compoundAllowed = True.
+DEBUG 2016-03-20 07:36:22,173 [Assets.Scripts.Rules.WireRuleSetGenerator] 5 properties matched.
+DEBUG 2016-03-20 07:36:22,174 [Assets.Scripts.Rules.WireRuleSetGenerator] 6 possible solutions. Chosen: cut the last {color} wire
+DEBUG 2016-03-20 07:36:22,175 [Assets.Scripts.Rules.WireRuleSetGenerator] Added rule: Query: there is more than one red wire and the last digit of the serial number is odd, Solution: cut the last red wire
+DEBUG 2016-03-20 07:36:22,176 [Assets.Scripts.Rules.WireRuleSetGenerator] 1 queries for rule. 3 wires available, 5 colors available.
+DEBUG 2016-03-20 07:36:22,177 [Assets.Scripts.Rules.WireRuleSetGenerator] CalculatePossibleQueryableProperties: 2 querySets, 3 wiresAvailable, compoundAllowed = False.
+DEBUG 2016-03-20 07:36:22,178 [Assets.Scripts.Rules.WireRuleSetGenerator] 4 properties matched.
+DEBUG 2016-03-20 07:36:22,179 [Assets.Scripts.Rules.WireRuleSetGenerator] 6 possible solutions. Chosen: cut the last wire
+DEBUG 2016-03-20 07:36:22,180 [Assets.Scripts.Rules.WireRuleSetGenerator] Added rule: Query: there is more than one yellow wire, Solution: cut the last wire
+DEBUG 2016-03-20 07:36:22,181 [Assets.Scripts.Rules.WireRuleSetGenerator] 1 queries for rule. 3 wires available, 5 colors available.
+DEBUG 2016-03-20 07:36:22,182 [Assets.Scripts.Rules.WireRuleSetGenerator] CalculatePossibleQueryableProperties: 2 querySets, 3 wiresAvailable, compoundAllowed = False.
+DEBUG 2016-03-20 07:36:22,183 [Assets.Scripts.Rules.WireRuleSetGenerator] 4 properties matched.
+DEBUG 2016-03-20 07:36:22,184 [Assets.Scripts.Rules.WireRuleSetGenerator] 5 possible solutions. Chosen: cut the first wire
+DEBUG 2016-03-20 07:36:22,185 [Assets.Scripts.Rules.WireRuleSetGenerator] Added rule: Query: there is exactly one blue wire, Solution: cut the first wire
+DEBUG 2016-03-20 07:36:22,186 [Assets.Scripts.Rules.WireRuleSetGenerator] Creating 3 rules for 5 wires.
+DEBUG 2016-03-20 07:36:22,187 [Assets.Scripts.Rules.WireRuleSetGenerator] 2 queries for rule. 4 wires available, 5 colors available.
+DEBUG 2016-03-20 07:36:22,188 [Assets.Scripts.Rules.WireRuleSetGenerator] CalculatePossibleQueryableProperties: 2 querySets, 4 wiresAvailable, compoundAllowed = False.
+DEBUG 2016-03-20 07:36:22,189 [Assets.Scripts.Rules.WireRuleSetGenerator] 4 properties matched.
+DEBUG 2016-03-20 07:36:22,190 [Assets.Scripts.Rules.WireRuleSetGenerator] CalculatePossibleQueryableProperties: 2 querySets, 3 wiresAvailable, compoundAllowed = True.
+DEBUG 2016-03-20 07:36:22,191 [Assets.Scripts.Rules.WireRuleSetGenerator] 6 properties matched.
+DEBUG 2016-03-20 07:36:22,192 [Assets.Scripts.Rules.WireRuleSetGenerator] 8 possible solutions. Chosen: cut the first wire
+DEBUG 2016-03-20 07:36:22,193 [Assets.Scripts.Rules.WireRuleSetGenerator] Added rule: Query: there is exactly one red wire and there is more than one yellow wire, Solution: cut the first wire
+DEBUG 2016-03-20 07:36:22,195 [Assets.Scripts.Rules.WireRuleSetGenerator] 1 queries for rule. 4 wires available, 5 colors available.
+DEBUG 2016-03-20 07:36:22,195 [Assets.Scripts.Rules.WireRuleSetGenerator] CalculatePossibleQueryableProperties: 2 querySets, 4 wiresAvailable, compoundAllowed = False.
+DEBUG 2016-03-20 07:36:22,197 [Assets.Scripts.Rules.WireRuleSetGenerator] 4 properties matched.
+DEBUG 2016-03-20 07:36:22,197 [Assets.Scripts.Rules.WireRuleSetGenerator] 5 possible solutions. Chosen: cut the second wire
+DEBUG 2016-03-20 07:36:22,198 [Assets.Scripts.Rules.WireRuleSetGenerator] Added rule: Query: there are no black wires, Solution: cut the second wire
+DEBUG 2016-03-20 07:36:22,199 [Assets.Scripts.Rules.WireRuleSetGenerator] 2 queries for rule. 4 wires available, 5 colors available.
+DEBUG 2016-03-20 07:36:22,200 [Assets.Scripts.Rules.WireRuleSetGenerator] CalculatePossibleQueryableProperties: 2 querySets, 4 wiresAvailable, compoundAllowed = False.
+DEBUG 2016-03-20 07:36:22,201 [Assets.Scripts.Rules.WireRuleSetGenerator] 4 properties matched.
+DEBUG 2016-03-20 07:36:22,202 [Assets.Scripts.Rules.WireRuleSetGenerator] CalculatePossibleQueryableProperties: 2 querySets, 3 wiresAvailable, compoundAllowed = True.
+DEBUG 2016-03-20 07:36:22,203 [Assets.Scripts.Rules.WireRuleSetGenerator] 6 properties matched.
+DEBUG 2016-03-20 07:36:22,204 [Assets.Scripts.Rules.WireRuleSetGenerator] 5 possible solutions. Chosen: cut the fourth wire
+DEBUG 2016-03-20 07:36:22,205 [Assets.Scripts.Rules.WireRuleSetGenerator] Added rule: Query: the last wire is black and the last digit of the serial number is odd, Solution: cut the fourth wire
+DEBUG 2016-03-20 07:36:22,207 [Assets.Scripts.Rules.WireRuleSetGenerator] Creating 3 rules for 6 wires.
+DEBUG 2016-03-20 07:36:22,208 [Assets.Scripts.Rules.WireRuleSetGenerator] 2 queries for rule. 5 wires available, 5 colors available.
+DEBUG 2016-03-20 07:36:22,209 [Assets.Scripts.Rules.WireRuleSetGenerator] CalculatePossibleQueryableProperties: 2 querySets, 5 wiresAvailable, compoundAllowed = False.
+DEBUG 2016-03-20 07:36:22,210 [Assets.Scripts.Rules.WireRuleSetGenerator] 4 properties matched.
+DEBUG 2016-03-20 07:36:22,211 [Assets.Scripts.Rules.WireRuleSetGenerator] CalculatePossibleQueryableProperties: 2 querySets, 4 wiresAvailable, compoundAllowed = True.
+DEBUG 2016-03-20 07:36:22,212 [Assets.Scripts.Rules.WireRuleSetGenerator] 6 properties matched.
+DEBUG 2016-03-20 07:36:22,213 [Assets.Scripts.Rules.WireRuleSetGenerator] 9 possible solutions. Chosen: cut the fourth wire
+DEBUG 2016-03-20 07:36:22,214 [Assets.Scripts.Rules.WireRuleSetGenerator] Added rule: Query: there is exactly one yellow wire and there is more than one white wire, Solution: cut the fourth wire
+DEBUG 2016-03-20 07:36:22,215 [Assets.Scripts.Rules.WireRuleSetGenerator] 2 queries for rule. 5 wires available, 5 colors available.
+DEBUG 2016-03-20 07:36:22,216 [Assets.Scripts.Rules.WireRuleSetGenerator] CalculatePossibleQueryableProperties: 2 querySets, 5 wiresAvailable, compoundAllowed = False.
+DEBUG 2016-03-20 07:36:22,217 [Assets.Scripts.Rules.WireRuleSetGenerator] 4 properties matched.
+DEBUG 2016-03-20 07:36:22,218 [Assets.Scripts.Rules.WireRuleSetGenerator] CalculatePossibleQueryableProperties: 2 querySets, 5 wiresAvailable, compoundAllowed = True.
+DEBUG 2016-03-20 07:36:22,219 [Assets.Scripts.Rules.WireRuleSetGenerator] 6 properties matched.
+DEBUG 2016-03-20 07:36:22,219 [Assets.Scripts.Rules.WireRuleSetGenerator] 6 possible solutions. Chosen: cut the third wire
+DEBUG 2016-03-20 07:36:22,220 [Assets.Scripts.Rules.WireRuleSetGenerator] Added rule: Query: there are no yellow wires and the last digit of the serial number is odd, Solution: cut the third wire
+DEBUG 2016-03-20 07:36:22,222 [Assets.Scripts.Rules.WireRuleSetGenerator] 1 queries for rule. 5 wires available, 5 colors available.
+DEBUG 2016-03-20 07:36:22,223 [Assets.Scripts.Rules.WireRuleSetGenerator] CalculatePossibleQueryableProperties: 2 querySets, 5 wiresAvailable, compoundAllowed = False.
+DEBUG 2016-03-20 07:36:22,224 [Assets.Scripts.Rules.WireRuleSetGenerator] 4 properties matched.
+DEBUG 2016-03-20 07:36:22,225 [Assets.Scripts.Rules.WireRuleSetGenerator] 6 possible solutions. Chosen: cut the last wire
+DEBUG 2016-03-20 07:36:22,226 [Assets.Scripts.Rules.WireRuleSetGenerator] Added rule: Query: there are no red wires, Solution: cut the last wire
+DEBUG 2016-03-20 07:36:22,229 [Rules.WhosOnFirst] Display Word to Button Index Map: YES:2, FIRST:1, DISPLAY:5, OKAY:1, SAYS:5, NOTHING:2, :4, BLANK:3, NO:5, LED:2, LEAD:5, READ:3, RED:3, REED:4, LEED:4, HOLD ON:5, YOU:3, YOU ARE:5, YOUR:3, YOU'RE:3, UR:0, THERE:5, THEY'RE:4, THEIR:3, THEY ARE:2, SEE:5, C:1, CEE:5, 
+DEBUG 2016-03-20 07:36:22,231 [Rules.WhosOnFirst] Precedence for "READY": YES, OKAY, WHAT, MIDDLE, LEFT, PRESS, RIGHT, BLANK, READY, NO, FIRST, UHHH, NOTHING, WAIT
+DEBUG 2016-03-20 07:36:22,232 [Rules.WhosOnFirst] Precedence for "FIRST": LEFT, OKAY, YES, MIDDLE, NO, RIGHT, NOTHING, UHHH, WAIT, READY, BLANK, WHAT, PRESS, FIRST
+DEBUG 2016-03-20 07:36:22,233 [Rules.WhosOnFirst] Precedence for "NO": BLANK, UHHH, WAIT, FIRST, WHAT, READY, RIGHT, YES, NOTHING, LEFT, PRESS, OKAY, NO, MIDDLE
+DEBUG 2016-03-20 07:36:22,234 [Rules.WhosOnFirst] Precedence for "BLANK": WAIT, RIGHT, OKAY, MIDDLE, BLANK, PRESS, READY, NOTHING, NO, WHAT, LEFT, UHHH, YES, FIRST
+DEBUG 2016-03-20 07:36:22,235 [Rules.WhosOnFirst] Precedence for "NOTHING": UHHH, RIGHT, OKAY, MIDDLE, YES, BLANK, NO, PRESS, LEFT, WHAT, WAIT, FIRST, NOTHING, READY
+DEBUG 2016-03-20 07:36:22,236 [Rules.WhosOnFirst] Precedence for "YES": OKAY, RIGHT, UHHH, MIDDLE, FIRST, WHAT, PRESS, READY, NOTHING, YES, LEFT, BLANK, NO, WAIT
+DEBUG 2016-03-20 07:36:22,237 [Rules.WhosOnFirst] Precedence for "WHAT": UHHH, WHAT, LEFT, NOTHING, READY, BLANK, MIDDLE, NO, OKAY, FIRST, WAIT, YES, PRESS, RIGHT
+DEBUG 2016-03-20 07:36:22,238 [Rules.WhosOnFirst] Precedence for "UHHH": READY, NOTHING, LEFT, WHAT, OKAY, YES, RIGHT, NO, PRESS, BLANK, UHHH, MIDDLE, WAIT, FIRST
+DEBUG 2016-03-20 07:36:22,239 [Rules.WhosOnFirst] Precedence for "LEFT": RIGHT, LEFT, FIRST, NO, MIDDLE, YES, BLANK, WHAT, UHHH, WAIT, PRESS, READY, OKAY, NOTHING
+DEBUG 2016-03-20 07:36:22,240 [Rules.WhosOnFirst] Precedence for "RIGHT": YES, NOTHING, READY, PRESS, NO, WAIT, WHAT, RIGHT, MIDDLE, LEFT, UHHH, BLANK, OKAY, FIRST
+DEBUG 2016-03-20 07:36:22,241 [Rules.WhosOnFirst] Precedence for "MIDDLE": BLANK, READY, OKAY, WHAT, NOTHING, PRESS, NO, WAIT, LEFT, MIDDLE, RIGHT, FIRST, UHHH, YES
+DEBUG 2016-03-20 07:36:22,242 [Rules.WhosOnFirst] Precedence for "OKAY": MIDDLE, NO, FIRST, YES, UHHH, NOTHING, WAIT, OKAY, LEFT, READY, BLANK, PRESS, WHAT, RIGHT
+DEBUG 2016-03-20 07:36:22,243 [Rules.WhosOnFirst] Precedence for "WAIT": UHHH, NO, BLANK, OKAY, YES, LEFT, FIRST, PRESS, WHAT, WAIT, NOTHING, READY, RIGHT, MIDDLE
+DEBUG 2016-03-20 07:36:22,245 [Rules.WhosOnFirst] Precedence for "PRESS": RIGHT, MIDDLE, YES, READY, PRESS, OKAY, NOTHING, UHHH, BLANK, LEFT, FIRST, WHAT, NO, WAIT
+DEBUG 2016-03-20 07:36:22,246 [Rules.WhosOnFirst] Precedence for "YOU": SURE, YOU ARE, YOUR, YOU'RE, NEXT, UH HUH, UR, HOLD, WHAT?, YOU, UH UH, LIKE, DONE, U
+DEBUG 2016-03-20 07:36:22,247 [Rules.WhosOnFirst] Precedence for "YOU ARE": YOUR, NEXT, LIKE, UH HUH, WHAT?, DONE, UH UH, HOLD, YOU, U, YOU'RE, SURE, UR, YOU ARE
+DEBUG 2016-03-20 07:36:22,248 [Rules.WhosOnFirst] Precedence for "YOUR": UH UH, YOU ARE, UH HUH, YOUR, NEXT, UR, SURE, U, YOU'RE, YOU, WHAT?, HOLD, LIKE, DONE
+DEBUG 2016-03-20 07:36:22,249 [Rules.WhosOnFirst] Precedence for "YOU'RE": YOU, YOU'RE, UR, NEXT, UH UH, YOU ARE, U, YOUR, WHAT?, UH HUH, SURE, DONE, LIKE, HOLD
+DEBUG 2016-03-20 07:36:22,250 [Rules.WhosOnFirst] Precedence for "UR": DONE, U, UR, UH HUH, WHAT?, SURE, YOUR, HOLD, YOU'RE, LIKE, NEXT, UH UH, YOU ARE, YOU
+DEBUG 2016-03-20 07:36:22,251 [Rules.WhosOnFirst] Precedence for "U": UH HUH, SURE, NEXT, WHAT?, YOU'RE, UR, UH UH, DONE, U, YOU, LIKE, HOLD, YOU ARE, YOUR
+DEBUG 2016-03-20 07:36:22,252 [Rules.WhosOnFirst] Precedence for "UH HUH": UH HUH, YOUR, YOU ARE, YOU, DONE, HOLD, UH UH, NEXT, SURE, LIKE, YOU'RE, UR, U, WHAT?
+DEBUG 2016-03-20 07:36:22,253 [Rules.WhosOnFirst] Precedence for "UH UH": UR, U, YOU ARE, YOU'RE, NEXT, UH UH, DONE, YOU, UH HUH, LIKE, YOUR, SURE, HOLD, WHAT?
+DEBUG 2016-03-20 07:36:22,254 [Rules.WhosOnFirst] Precedence for "WHAT?": YOU, HOLD, YOU'RE, YOUR, U, DONE, UH UH, LIKE, YOU ARE, UH HUH, UR, NEXT, WHAT?, SURE
+DEBUG 2016-03-20 07:36:22,255 [Rules.WhosOnFirst] Precedence for "DONE": SURE, UH HUH, NEXT, WHAT?, YOUR, UR, YOU'RE, HOLD, LIKE, YOU, U, YOU ARE, UH UH, DONE
+DEBUG 2016-03-20 07:36:22,256 [Rules.WhosOnFirst] Precedence for "NEXT": WHAT?, UH HUH, UH UH, YOUR, HOLD, SURE, NEXT, LIKE, DONE, YOU ARE, UR, YOU'RE, U, YOU
+DEBUG 2016-03-20 07:36:22,257 [Rules.WhosOnFirst] Precedence for "HOLD": YOU ARE, U, DONE, UH UH, YOU, UR, SURE, WHAT?, YOU'RE, NEXT, HOLD, UH HUH, YOUR, LIKE
+DEBUG 2016-03-20 07:36:22,258 [Rules.WhosOnFirst] Precedence for "SURE": YOU ARE, DONE, LIKE, YOU'RE, YOU, HOLD, UH HUH, UR, SURE, U, WHAT?, NEXT, YOUR, UH UH
+DEBUG 2016-03-20 07:36:22,259 [Rules.WhosOnFirst] Precedence for "LIKE": YOU'RE, NEXT, U, UR, HOLD, DONE, UH UH, WHAT?, UH HUH, YOU, LIKE, SURE, YOU ARE, YOUR
+DEBUG 2016-03-20 07:36:22,262 [Assets.Scripts.Rules.KeypadRuleSetGenerator] <tr><td class="keypad-table-column">Ϙ</td><td class="keypad-table-spacer"></td><td class="keypad-table-column">Ӭ</td><td class="keypad-table-spacer"></td><td class="keypad-table-column">©</td><td class="keypad-table-spacer"></td><td class="keypad-table-column">Ϭ</td><td class="keypad-table-spacer"></td><td class="keypad-table-column">Ψ</td><td class="keypad-table-spacer"></td><td class="keypad-table-column">Ϭ</td></tr>
+<tr><td class="keypad-table-column">Ѧ</td><td class="keypad-table-spacer"></td><td class="keypad-table-column">Ϙ</td><td class="keypad-table-spacer"></td><td class="keypad-table-column">Ѽ</td><td class="keypad-table-spacer"></td><td class="keypad-table-column">¶</td><td class="keypad-table-spacer"></td><td class="keypad-table-column">ټ</td><td class="keypad-table-spacer"></td><td class="keypad-table-column">Ӭ</td></tr>
+<tr><td class="keypad-table-column">ƛ</td><td class="keypad-table-spacer"></td><td class="keypad-table-column">Ͽ</td><td class="keypad-table-spacer"></td><td class="keypad-table-column">Ҩ</td><td class="keypad-table-spacer"></td><td class="keypad-table-column">ѣ</td><td class="keypad-table-spacer"></td><td class="keypad-table-column">ѣ</td><td class="keypad-table-spacer"></td><td class="keypad-table-column">҂</td></tr>
+<tr><td class="keypad-table-column">Ϟ</td><td class="keypad-table-spacer"></td><td class="keypad-table-column">Ҩ</td><td class="keypad-table-spacer"></td><td class="keypad-table-column">Җ</td><td class="keypad-table-spacer"></td><td class="keypad-table-column">Ѭ</td><td class="keypad-table-spacer"></td><td class="keypad-table-column">Ͼ</td><td class="keypad-table-spacer"></td><td class="keypad-table-column">ӕ</td></tr>
+<tr><td class="keypad-table-column">Ѭ</td><td class="keypad-table-spacer"></td><td class="keypad-table-column">☆</td><td class="keypad-table-spacer"></td><td class="keypad-table-column">Ԇ</td><td class="keypad-table-spacer"></td><td class="keypad-table-column">Җ</td><td class="keypad-table-spacer"></td><td class="keypad-table-column">¶</td><td class="keypad-table-spacer"></td><td class="keypad-table-column">Ψ</td></tr>
+<tr><td class="keypad-table-column">ϗ</td><td class="keypad-table-spacer"></td><td class="keypad-table-column">ϗ</td><td class="keypad-table-spacer"></td><td class="keypad-table-column">ƛ</td><td class="keypad-table-spacer"></td><td class="keypad-table-column">¿</td><td class="keypad-table-spacer"></td><td class="keypad-table-column">ѯ</td><td class="keypad-table-spacer"></td><td class="keypad-table-column">Ҋ</td></tr>
+<tr><td class="keypad-table-column">Ͽ</td><td class="keypad-table-spacer"></td><td class="keypad-table-column">¿</td><td class="keypad-table-spacer"></td><td class="keypad-table-column">☆</td><td class="keypad-table-spacer"></td><td class="keypad-table-column">ټ</td><td class="keypad-table-spacer"></td><td class="keypad-table-column">★</td><td class="keypad-table-spacer"></td><td class="keypad-table-column">Ω</td></tr>
+
+DEBUG 2016-03-20 07:36:22,284 [Rules] WireSet Rules:
+DEBUG 2016-03-20 07:36:22,286 [Rules] 3 wires:
+If there are no red wires, cut the second wire.
+If the last wire is white, cut the last wire.
+If there is more than one blue wire, cut the last blue wire.
+Otherwise, cut the last wire
+
+
+4 wires:
+If there is more than one red wire and the last digit of the serial number is odd, cut the last red wire.
+If the last wire is yellow and there are no red wires, cut the first wire.
+If there is exactly one blue wire, cut the first wire.
+If there is more than one yellow wire, cut the last wire.
+Otherwise, cut the second wire
+
+
+5 wires:
+If the last wire is black and the last digit of the serial number is odd, cut the fourth wire.
+If there is exactly one red wire and there is more than one yellow wire, cut the first wire.
+If there are no black wires, cut the second wire.
+Otherwise, cut the first wire
+
+
+6 wires:
+If there are no yellow wires and the last digit of the serial number is odd, cut the third wire.
+If there is exactly one yellow wire and there is more than one white wire, cut the fourth wire.
+If there are no red wires, cut the last wire.
+Otherwise, cut the fourth wire
+
+
+
+DEBUG 2016-03-20 07:36:22,290 [Rules] Memory Rules:
+DEBUG 2016-03-20 07:36:22,291 [Rules] <h4>Stage 1:</h4>
+<p>
+If the display is 1, press the button in the second position.<br />
+If the display is 2, press the button in the second position.<br />
+If the display is 3, press the button in the third position.<br />
+If the display is 4, press the button in the fourth position.<br />
+</p>
+
+
+<h4>Stage 2:</h4>
+<p>
+If the display is 1, press the button labeled "4".<br />
+If the display is 2, press the button in the same position as you pressed in stage 1.<br />
+If the display is 3, press the button in the first position.<br />
+If the display is 4, press the button in the same position as you pressed in stage 1.<br />
+</p>
+
+
+<h4>Stage 3:</h4>
+<p>
+If the display is 1, press the button with the same label you pressed in stage 2.<br />
+If the display is 2, press the button with the same label you pressed in stage 1.<br />
+If the display is 3, press the button in the third position.<br />
+If the display is 4, press the button labeled "4".<br />
+</p>
+
+
+<h4>Stage 4:</h4>
+<p>
+If the display is 1, press the button in the same position as you pressed in stage 1.<br />
+If the display is 2, press the button in the first position.<br />
+If the display is 3, press the button in the same position as you pressed in stage 2.<br />
+If the display is 4, press the button in the same position as you pressed in stage 2.<br />
+</p>
+
+
+<h4>Stage 5:</h4>
+<p>
+If the display is 1, press the button with the same label you pressed in stage 1.<br />
+If the display is 2, press the button with the same label you pressed in stage 2.<br />
+If the display is 3, press the button with the same label you pressed in stage 4.<br />
+If the display is 4, press the button with the same label you pressed in stage 3.<br />
+</p>
+
+
+
+DEBUG 2016-03-20 07:36:22,297 [Rules] Needy Knob Rules:
+DEBUG 2016-03-20 07:36:22,298 [Rules] Up Position:
+<tr><td> </td><td> </td><td>X</td><td> </td><td>X</td><td>X</td></tr>
+<tr><td>X</td><td>X</td><td>X</td><td>X</td><td> </td><td>X</td></tr>
+
+<tr><td>X</td><td> </td><td>X</td><td> </td><td>X</td><td> </td></tr>
+<tr><td> </td><td>X</td><td>X</td><td> </td><td>X</td><td>X</td></tr>
+
+Down Position:
+<tr><td> </td><td>X</td><td>X</td><td> </td><td> </td><td>X</td></tr>
+<tr><td>X</td><td>X</td><td>X</td><td>X</td><td> </td><td>X</td></tr>
+
+<tr><td>X</td><td> </td><td>X</td><td> </td><td>X</td><td> </td></tr>
+<tr><td> </td><td>X</td><td> </td><td> </td><td> </td><td>X</td></tr>
+
+Left Position:
+<tr><td> </td><td> </td><td> </td><td> </td><td>X</td><td> </td></tr>
+<tr><td>X</td><td> </td><td> </td><td>X</td><td>X</td><td>X</td></tr>
+
+<tr><td> </td><td> </td><td> </td><td> </td><td>X</td><td> </td></tr>
+<tr><td> </td><td> </td><td> </td><td>X</td><td>X</td><td> </td></tr>
+
+Right Position:
+<tr><td>X</td><td> </td><td>X</td><td>X</td><td>X</td><td>X</td></tr>
+<tr><td>X</td><td>X</td><td>X</td><td> </td><td>X</td><td> </td></tr>
+
+<tr><td>X</td><td> </td><td>X</td><td>X</td><td> </td><td> </td></tr>
+<tr><td>X</td><td>X</td><td>X</td><td> </td><td>X</td><td> </td></tr>
+
+
+DEBUG 2016-03-20 07:36:22,302 [Rules] Button Rules:
+DEBUG 2016-03-20 07:36:22,303 [Rules] Initial rules
+
+If the button is blue and the button says "Abort", hold the button and refer to "Releasing a Held Button".
+If there is more than 1 battery on the bomb and the button says "Detonate", press and immediately release the button.
+If the button is white and there is a lit indicator with label CAR, hold the button and refer to "Releasing a Held Button".
+If there are more than 2 batteries on the bomb and there is a lit indicator with label FRK, press and immediately release the button.
+If the button is yellow, hold the button and refer to "Releasing a Held Button".
+If the button is red and the button says "Hold", press and immediately release the button.
+If none of the above apply, hold the button and refer to "Releasing a Held Button".
+On Hold Rules
+
+If <em>Blue strip:</em>, release when the countdown timer has a 4 in any position..
+If <em>White strip:</em>, release when the countdown timer has a 1 in any position..
+If <em>Yellow strip:</em>, release when the countdown timer has a 5 in any position..
+If <em>Any other color strip:</em>, release when the countdown timer has a 1 in any position..
+
+DEBUG 2016-03-20 07:36:22,307 [Rules] Wire Sequence Rules:
+DEBUG 2016-03-20 07:36:22,309 [Rules] <table class='red-table'><tr><th colspan='2' class='header'>red Wires</th></tr><tr><th class='first-col'>Wire</th><th class='second-col'>Cut if connected to:</th></tr><tr><td class='first-col'>First</td><td class='second-col'>C</td></tr><tr><td class='first-col'>Second</td><td class='second-col'>B</td></tr><tr><td class='first-col'>Third</td><td class='second-col'>A</td></tr><tr><td class='first-col'>Fourth</td><td class='second-col'>A or C</td></tr><tr><td class='first-col'>Fifth</td><td class='second-col'>B</td></tr><tr><td class='first-col'>Sixth</td><td class='second-col'>A or C</td></tr><tr><td class='first-col'>Seventh</td><td class='second-col'>A, B or C</td></tr><tr><td class='first-col'>Eighth</td><td class='second-col'>A or B</td></tr><tr><td class='first-col'>Ninth</td><td class='second-col'>B</td></tr></table><table class='blue-table'><tr><th colspan='2' class='header'>blue Wires</th></tr><tr><th class='first-col'>Wire</th><th class='second-col'>Cut if connected to:</th></tr><tr><td class='first-col'>First</td><td class='second-col'>B</td></tr><tr><td class='first-col'>Second</td><td class='second-col'>A or C</td></tr><tr><td class='first-col'>Third</td><td class='second-col'>B</td></tr><tr><td class='first-col'>Fourth</td><td class='second-col'>A</td></tr><tr><td class='first-col'>Fifth</td><td class='second-col'>B</td></tr><tr><td class='first-col'>Sixth</td><td class='second-col'>B or C</td></tr><tr><td class='first-col'>Seventh</td><td class='second-col'>C</td></tr><tr><td class='first-col'>Eighth</td><td class='second-col'>A or C</td></tr><tr><td class='first-col'>Ninth</td><td class='second-col'>A</td></tr></table><table class='black-table'><tr><th colspan='2' class='header'>black Wires</th></tr><tr><th class='first-col'>Wire</th><th class='second-col'>Cut if connected to:</th></tr><tr><td class='first-col'>First</td><td class='second-col'>A, B or C</td></tr><tr><td class='first-col'>Second</td><td class='second-col'>A or C</td></tr><tr><td class='first-col'>Third</td><td class='second-col'>B</td></tr><tr><td class='first-col'>Fourth</td><td class='second-col'>A or C</td></tr><tr><td class='first-col'>Fifth</td><td class='second-col'>B</td></tr><tr><td class='first-col'>Sixth</td><td class='second-col'>B or C</td></tr><tr><td class='first-col'>Seventh</td><td class='second-col'>A or B</td></tr><tr><td class='first-col'>Eighth</td><td class='second-col'>C</td></tr><tr><td class='first-col'>Ninth</td><td class='second-col'>C</td></tr></table>
+DEBUG 2016-03-20 07:36:22,317 [Rules] Password Rules:
+DEBUG 2016-03-20 07:36:22,318 [Rules] <tr><td>about</td><td>after</td><td>again</td><td>below</td><td>could</td></tr><tr><td>every</td><td>first</td><td>found</td><td>great</td><td>house</td></tr><tr><td>large</td><td>learn</td><td>never</td><td>other</td><td>place</td></tr><tr><td>plant</td><td>point</td><td>right</td><td>small</td><td>sound</td></tr><tr><td>spell</td><td>still</td><td>study</td><td>their</td><td>there</td></tr><tr><td>these</td><td>thing</td><td>think</td><td>three</td><td>water</td></tr><tr><td>where</td><td>which</td><td>world</td><td>would</td><td>write</td></tr>
+DEBUG 2016-03-20 07:36:22,320 [Rules] Morse Code Rules:
+DEBUG 2016-03-20 07:36:22,321 [Rules] WordDict: 
+<tr><td>shell</td><td>3.505 MHz</td></tr>
+<tr><td>halls</td><td>3.515 MHz</td></tr>
+<tr><td>slick</td><td>3.522 MHz</td></tr>
+<tr><td>trick</td><td>3.532 MHz</td></tr>
+<tr><td>boxes</td><td>3.535 MHz</td></tr>
+<tr><td>leaks</td><td>3.542 MHz</td></tr>
+<tr><td>strobe</td><td>3.545 MHz</td></tr>
+<tr><td>bistro</td><td>3.552 MHz</td></tr>
+<tr><td>flick</td><td>3.555 MHz</td></tr>
+<tr><td>bombs</td><td>3.565 MHz</td></tr>
+<tr><td>break</td><td>3.572 MHz</td></tr>
+<tr><td>brick</td><td>3.575 MHz</td></tr>
+<tr><td>steak</td><td>3.582 MHz</td></tr>
+<tr><td>sting</td><td>3.592 MHz</td></tr>
+<tr><td>vector</td><td>3.595 MHz</td></tr>
+<tr><td>beats</td><td>3.600 MHz</td></tr>
+
+DEBUG 2016-03-20 07:36:22,324 [Rules] Venn Wire Rules:
+DEBUG 2016-03-20 07:36:22,325 [Rules] 
+DEBUG 2016-03-20 07:36:22,326 [Rules] Who's On First Rules:
+DEBUG 2016-03-20 07:36:22,329 [Rules] <table class="whos-on-first-step1-table">
+<tr><td><table><tr><th class="whos-on-first-look-at-display" colspan="2">YES</th></tr>
+<tr><td><br /></td><td><br /></td></tr>
+<tr><td class="whos-on-first-look-at"><?= Layout::writeEyeIcon(); ?></td><td><br /></td></tr>
+<tr><td><br /></td><td><br /></td></tr>
+</table></td>
+<td><table><tr><th class="whos-on-first-look-at-display" colspan="2">FIRST</th></tr>
+<tr><td><br /></td><td class="whos-on-first-look-at"><?= Layout::writeEyeIcon(); ?></td></tr>
+<tr><td><br /></td><td><br /></td></tr>
+<tr><td><br /></td><td><br /></td></tr>
+</table></td>
+<td><table><tr><th class="whos-on-first-look-at-display" colspan="2">DISPLAY</th></tr>
+<tr><td><br /></td><td><br /></td></tr>
+<tr><td><br /></td><td><br /></td></tr>
+<tr><td><br /></td><td class="whos-on-first-look-at"><?= Layout::writeEyeIcon(); ?></td></tr>
+</table></td>
+<td><table><tr><th class="whos-on-first-look-at-display" colspan="2">OKAY</th></tr>
+<tr><td><br /></td><td class="whos-on-first-look-at"><?= Layout::writeEyeIcon(); ?></td></tr>
+<tr><td><br /></td><td><br /></td></tr>
+<tr><td><br /></td><td><br /></td></tr>
+</table></td>
+<td><table><tr><th class="whos-on-first-look-at-display" colspan="2">SAYS</th></tr>
+<tr><td><br /></td><td><br /></td></tr>
+<tr><td><br /></td><td><br /></td></tr>
+<tr><td><br /></td><td class="whos-on-first-look-at"><?= Layout::writeEyeIcon(); ?></td></tr>
+</table></td>
+<td><table><tr><th class="whos-on-first-look-at-display" colspan="2">NOTHING</th></tr>
+<tr><td><br /></td><td><br /></td></tr>
+<tr><td class="whos-on-first-look-at"><?= Layout::writeEyeIcon(); ?></td><td><br /></td></tr>
+<tr><td><br /></td><td><br /></td></tr>
+</table></td>
+</tr>
+<tr><td><table><tr><th class="whos-on-first-look-at-display" colspan="2"></th></tr>
+<tr><td><br /></td><td><br /></td></tr>
+<tr><td><br /></td><td><br /></td></tr>
+<tr><td class="whos-on-first-look-at"><?= Layout::writeEyeIcon(); ?></td><td><br /></td></tr>
+</table></td>
+<td><table><tr><th class="whos-on-first-look-at-display" colspan="2">BLANK</th></tr>
+<tr><td><br /></td><td><br /></td></tr>
+<tr><td><br /></td><td class="whos-on-first-look-at"><?= Layout::writeEyeIcon(); ?></td></tr>
+<tr><td><br /></td><td><br /></td></tr>
+</table></td>
+<td><table><tr><th class="whos-on-first-look-at-display" colspan="2">NO</th></tr>
+<tr><td><br /></td><td><br /></td></tr>
+<tr><td><br /></td><td><br /></td></tr>
+<tr><td><br /></td><td class="whos-on-first-look-at"><?= Layout::writeEyeIcon(); ?></td></tr>
+</table></td>
+<td><table><tr><th class="whos-on-first-look-at-display" colspan="2">LED</th></tr>
+<tr><td><br /></td><td><br /></td></tr>
+<tr><td class="whos-on-first-look-at"><?= Layout::writeEyeIcon(); ?></td><td><br /></td></tr>
+<tr><td><br /></td><td><br /></td></tr>
+</table></td>
+<td><table><tr><th class="whos-on-first-look-at-display" colspan="2">LEAD</th></tr>
+<tr><td><br /></td><td><br /></td></tr>
+<tr><td><br /></td><td><br /></td></tr>
+<tr><td><br /></td><td class="whos-on-first-look-at"><?= Layout::writeEyeIcon(); ?></td></tr>
+</table></td>
+<td><table><tr><th class="whos-on-first-look-at-display" colspan="2">READ</th></tr>
+<tr><td><br /></td><td><br /></td></tr>
+<tr><td><br /></td><td class="whos-on-first-look-at"><?= Layout::writeEyeIcon(); ?></td></tr>
+<tr><td><br /></td><td><br /></td></tr>
+</table></td>
+</tr>
+<tr><td><table><tr><th class="whos-on-first-look-at-display" colspan="2">RED</th></tr>
+<tr><td><br /></td><td><br /></td></tr>
+<tr><td><br /></td><td class="whos-on-first-look-at"><?= Layout::writeEyeIcon(); ?></td></tr>
+<tr><td><br /></td><td><br /></td></tr>
+</table></td>
+<td><table><tr><th class="whos-on-first-look-at-display" colspan="2">REED</th></tr>
+<tr><td><br /></td><td><br /></td></tr>
+<tr><td><br /></td><td><br /></td></tr>
+<tr><td class="whos-on-first-look-at"><?= Layout::writeEyeIcon(); ?></td><td><br /></td></tr>
+</table></td>
+<td><table><tr><th class="whos-on-first-look-at-display" colspan="2">LEED</th></tr>
+<tr><td><br /></td><td><br /></td></tr>
+<tr><td><br /></td><td><br /></td></tr>
+<tr><td class="whos-on-first-look-at"><?= Layout::writeEyeIcon(); ?></td><td><br /></td></tr>
+</table></td>
+<td><table><tr><th class="whos-on-first-look-at-display" colspan="2">HOLD ON</th></tr>
+<tr><td><br /></td><td><br /></td></tr>
+<tr><td><br /></td><td><br /></td></tr>
+<tr><td><br /></td><td class="whos-on-first-look-at"><?= Layout::writeEyeIcon(); ?></td></tr>
+</table></td>
+<td><table><tr><th class="whos-on-first-look-at-display" colspan="2">YOU</th></tr>
+<tr><td><br /></td><td><br /></td></tr>
+<tr><td><br /></td><td class="whos-on-first-look-at"><?= Layout::writeEyeIcon(); ?></td></tr>
+<tr><td><br /></td><td><br /></td></tr>
+</table></td>
+<td><table><tr><th class="whos-on-first-look-at-display" colspan="2">YOU ARE</th></tr>
+<tr><td><br /></td><td><br /></td></tr>
+<tr><td><br /></td><td><br /></td></tr>
+<tr><td><br /></td><td class="whos-on-first-look-at"><?= Layout::writeEyeIcon(); ?></td></tr>
+</table></td>
+</tr>
+<tr><td><table><tr><th class="whos-on-first-look-at-display" colspan="2">YOUR</th></tr>
+<tr><td><br /></td><td><br /></td></tr>
+<tr><td><br /></td><td class="whos-on-first-look-at"><?= Layout::writeEyeIcon(); ?></td></tr>
+<tr><td><br /></td><td><br /></td></tr>
+</table></td>
+<td><table><tr><th class="whos-on-first-look-at-display" colspan="2">YOU'RE</th></tr>
+<tr><td><br /></td><td><br /></td></tr>
+<tr><td><br /></td><td class="whos-on-first-look-at"><?= Layout::writeEyeIcon(); ?></td></tr>
+<tr><td><br /></td><td><br /></td></tr>
+</table></td>
+<td><table><tr><th class="whos-on-first-look-at-display" colspan="2">UR</th></tr>
+<tr><td class="whos-on-first-look-at"><?= Layout::writeEyeIcon(); ?></td><td><br /></td></tr>
+<tr><td><br /></td><td><br /></td></tr>
+<tr><td><br /></td><td><br /></td></tr>
+</table></td>
+<td><table><tr><th class="whos-on-first-look-at-display" colspan="2">THERE</th></tr>
+<tr><td><br /></td><td><br /></td></tr>
+<tr><td><br /></td><td><br /></td></tr>
+<tr><td><br /></td><td class="whos-on-first-look-at"><?= Layout::writeEyeIcon(); ?></td></tr>
+</table></td>
+<td><table><tr><th class="whos-on-first-look-at-display" colspan="2">THEY'RE</th></tr>
+<tr><td><br /></td><td><br /></td></tr>
+<tr><td><br /></td><td><br /></td></tr>
+<tr><td class="whos-on-first-look-at"><?= Layout::writeEyeIcon(); ?></td><td><br /></td></tr>
+</table></td>
+<td><table><tr><th class="whos-on-first-look-at-display" colspan="2">THEIR</th></tr>
+<tr><td><br /></td><td><br /></td></tr>
+<tr><td><br /></td><td class="whos-on-first-look-at"><?= Layout::writeEyeIcon(); ?></td></tr>
+<tr><td><br /></td><td><br /></td></tr>
+</table></td>
+</tr>
+<tr><td><br /></td><td><table><tr><th class="whos-on-first-look-at-display" colspan="2">THEY ARE</th></tr>
+<tr><td><br /></td><td><br /></td></tr>
+<tr><td class="whos-on-first-look-at"><?= Layout::writeEyeIcon(); ?></td><td><br /></td></tr>
+<tr><td><br /></td><td><br /></td></tr>
+</table></td>
+<td><table><tr><th class="whos-on-first-look-at-display" colspan="2">SEE</th></tr>
+<tr><td><br /></td><td><br /></td></tr>
+<tr><td><br /></td><td><br /></td></tr>
+<tr><td><br /></td><td class="whos-on-first-look-at"><?= Layout::writeEyeIcon(); ?></td></tr>
+</table></td>
+<td><table><tr><th class="whos-on-first-look-at-display" colspan="2">C</th></tr>
+<tr><td><br /></td><td class="whos-on-first-look-at"><?= Layout::writeEyeIcon(); ?></td></tr>
+<tr><td><br /></td><td><br /></td></tr>
+<tr><td><br /></td><td><br /></td></tr>
+</table></td>
+<td><table><tr><th class="whos-on-first-look-at-display" colspan="2">CEE</th></tr>
+<tr><td><br /></td><td><br /></td></tr>
+<tr><td><br /></td><td><br /></td></tr>
+<tr><td><br /></td><td class="whos-on-first-look-at"><?= Layout::writeEyeIcon(); ?></td></tr>
+</table></td>
+<td><br /></td></tr>
+</table>
+DEBUG 2016-03-20 07:36:22,352 [Rules] Rhythm Heaven Rules:
+DEBUG 2016-03-20 07:36:22,354 [Rules] <ul><li>If <strong>3 wires</strong> appear... Don't touch the <strong>7th</strong> sub-component!</li><li>If <strong>3 fuses</strong> appear... Don't touch the <strong>6th</strong> sub-component!</li><li>If <strong>3 switches</strong> appear... Don't touch the <strong>9th</strong> sub-component!</li><li>If <strong>3 knobs</strong> appear... Don't touch the <strong>8th</strong> sub-component!</li></ul>
+ INFO 2016-03-20 07:36:22,372 [SceneManager] Fading in...
+ INFO 2016-03-20 07:36:22,373 [State] Enter GameplayState
+ INFO 2016-03-20 07:36:22,376 [BombGenerator] Generating bomb with seed 854229918
+ INFO 2016-03-20 07:36:22,378 [BombGenerator] Generator settings: Time: 300, NumStrikes: 3, FrontFaceOnly: True
+3 Pools:
+[Wires] Count: 1
+[BigButton] Count: 1
+[Keypad] Count: 1
+
+DEBUG 2016-03-20 07:36:22,380 [BombGenerator] Filling in non-front faces with empty components.
+DEBUG 2016-03-20 07:36:22,382 [BombGenerator] Instantiated EmptyComponent on face RearFace, spawn index 3
+DEBUG 2016-03-20 07:36:22,383 [BombGenerator] Instantiated EmptyComponent on face RearFace, spawn index 5
+DEBUG 2016-03-20 07:36:22,384 [BombGenerator] Instantiated EmptyComponent on face RearFace, spawn index 4
+DEBUG 2016-03-20 07:36:22,385 [BombGenerator] Instantiated EmptyComponent on face RearFace, spawn index 1
+DEBUG 2016-03-20 07:36:22,385 [BombGenerator] Instantiated EmptyComponent on face RearFace, spawn index 0
+DEBUG 2016-03-20 07:36:22,386 [BombGenerator] Instantiated EmptyComponent on face RearFace, spawn index 2
+DEBUG 2016-03-20 07:36:22,389 [BombGenerator] Instantiated TimerComponent on face FrontFace, spawn index 1
+ INFO 2016-03-20 07:36:22,391 [BombGenerator] Selected Wires (WireSetComponent (WireSetComponent))
+ INFO 2016-03-20 07:36:22,392 [BombGenerator] Selected BigButton (ButtonComponent (ButtonComponent))
+ INFO 2016-03-20 07:36:22,392 [BombGenerator] Selected Keypad (KeypadComponent (KeypadComponent))
+DEBUG 2016-03-20 07:36:22,393 [BombGenerator] Bomb component list: RequiresTimerVisibility [BigButton], AnyFace: [Wires, Keypad]
+DEBUG 2016-03-20 07:36:22,394 [BombGenerator] Instantiating RequiresTimerVisibility components on FrontFace
+DEBUG 2016-03-20 07:36:22,396 [BombGenerator] Instantiated ButtonComponent on face FrontFace, spawn index 2
+DEBUG 2016-03-20 07:36:22,397 [BombGenerator] Instantiating remaining components on any valid face.
+DEBUG 2016-03-20 07:36:22,418 [BombGenerator] Instantiated WireSetComponent on face FrontFace, spawn index 0
+ INFO 2016-03-20 07:36:22,421 [KeypadComponent] Symbols selected: "Ϟ", "Ѧ", "Ͽ", "ƛ"
+DEBUG 2016-03-20 07:36:22,423 [BombGenerator] Instantiated KeypadComponent on face FrontFace, spawn index 5
+DEBUG 2016-03-20 07:36:22,424 [BombGenerator] Filling remaining spaces with empty components.
+DEBUG 2016-03-20 07:36:22,425 [BombGenerator] Instantiated EmptyComponent on face FrontFace, spawn index 3
+DEBUG 2016-03-20 07:36:22,426 [BombGenerator] Instantiated EmptyComponent on face FrontFace, spawn index 4
+DEBUG 2016-03-20 07:36:22,426 [BombGenerator] Generating Widgets
+DEBUG 2016-03-20 07:36:22,429 [WidgetGenerator] Added widget: SerialNumber at 0, 1
+DEBUG 2016-03-20 07:36:22,430 [WidgetGenerator] Added widget: IndicatorWidget at 1, 1
+DEBUG 2016-03-20 07:36:22,433 [WidgetGenerator] Added widget: PortWidget at 1, 0
+DEBUG 2016-03-20 07:36:22,434 [PortWidget] Randomizing Port Widget: PS2, RJ45
+DEBUG 2016-03-20 07:36:22,435 [WidgetGenerator] Added widget: IndicatorWidget at 0, 0
+DEBUG 2016-03-20 07:36:22,437 [WidgetGenerator] Added widget: BatteryWidget at 0, 0
+DEBUG 2016-03-20 07:36:22,437 [WidgetGenerator] Added widget: IndicatorWidget at 0, 1
+ WARN 2016-03-20 07:36:22,455 [Logging] Warning: The Playlist 'GameRoomA' is already loaded. Ignoring Change Playlist request.
+
+DEBUG 2016-03-20 07:36:22,463 [WireSetComponent] Num wires: 4 Removing 2 wires...
+DEBUG 2016-03-20 07:36:22,464 [WireSetComponent] Removing wire SnippableWire_2 (SnippableWire) at index 1
+DEBUG 2016-03-20 07:36:22,465 [WireSetComponent] Removing wire SnippableWire_5 (SnippableWire) at index 3
+DEBUG 2016-03-20 07:36:22,465 [WireSetComponent] Wires.Count is now 4
+DEBUG 2016-03-20 07:36:30,078 [Assets.Scripts.Props.AlarmClock] TurnOn
+DEBUG 2016-03-20 07:36:30,498 [Assets.Scripts.Pacing.PaceMaker] Round start! Mission: The First Bomb Pacing Enabled: False
+DEBUG 2016-03-20 07:36:30,499 [Assets.Scripts.Pacing.PaceMaker] Next idle action in 54.97393 seconds.
+DEBUG 2016-03-20 07:36:31,070 [Assets.Scripts.Props.AlarmClock] TurnOff
+DEBUG 2016-03-20 07:37:25,473 [Assets.Scripts.Pacing.PaceMaker] PlayerSuccessRating: 0.4633523 (Factors: solved: 0, strikes: 0.3, time: 0.1633523)
+DEBUG 2016-03-20 07:37:25,474 [Assets.Scripts.Pacing.PaceMaker] Next idle action in 54.04307 seconds.
+DEBUG 2016-03-20 07:38:05,173 [Assets.Scripts.Rules.KeypadRuleSet] Keypad button 1 symbol Ѧ pressed Precedence list: Ϙ, Ѧ, ƛ, Ϟ, Ѭ, ϗ, Ͽ
+DEBUG 2016-03-20 07:38:06,113 [Assets.Scripts.Rules.KeypadRuleSet] Keypad button 2 symbol Ͽ pressed Precedence list: Ϙ, Ѧ, ƛ, Ϟ, Ѭ, ϗ, Ͽ
+DEBUG 2016-03-20 07:38:06,114 [Assets.Scripts.Rules.KeypadRuleSet] Keypad button Ͽ pressed before Ϟ
+DEBUG 2016-03-20 07:38:06,115 [Bomb] Strike! 1 / 3 strikes
+DEBUG 2016-03-20 07:38:06,118 [Assets.Scripts.Pacing.PaceMaker] PlayerSuccessRating: 0.286259 (Factors: solved: 0, strikes: 0.15, time: 0.136259)
+ INFO 2016-03-20 07:38:06,121 [Assets.Scripts.Services.Steam.ServicesSteam] Successfully submitted stat id totalstrikes change to int value 1 to Steam. This has not yet been synced to their server, though.
+ INFO 2016-03-20 07:38:06,121 [Assets.Scripts.Stats.StatsManager] Stat 'totalstrikes' changed from 0 to 1
+DEBUG 2016-03-20 07:38:06,956 [Assets.Scripts.Rules.KeypadRuleSet] Keypad button 0 symbol Ϟ pressed Precedence list: Ϙ, Ѧ, ƛ, Ϟ, Ѭ, ϗ, Ͽ
+DEBUG 2016-03-20 07:38:06,957 [Assets.Scripts.Rules.KeypadRuleSet] Keypad button Ϟ pressed before ƛ
+DEBUG 2016-03-20 07:38:06,958 [Bomb] Strike! 2 / 3 strikes
+DEBUG 2016-03-20 07:38:06,959 [Assets.Scripts.Pacing.PaceMaker] PlayerSuccessRating: 0.1355557 (Factors: solved: 0, strikes: 0, time: 0.1355557)
+ INFO 2016-03-20 07:38:06,960 [Assets.Scripts.Services.Steam.ServicesSteam] Successfully submitted stat id totalstrikes change to int value 2 to Steam. This has not yet been synced to their server, though.
+ INFO 2016-03-20 07:38:06,961 [Assets.Scripts.Stats.StatsManager] Stat 'totalstrikes' changed from 1 to 2
+DEBUG 2016-03-20 07:38:07,720 [Assets.Scripts.Rules.KeypadRuleSet] Keypad button 3 symbol ƛ pressed Precedence list: Ϙ, Ѧ, ƛ, Ϟ, Ѭ, ϗ, Ͽ
+DEBUG 2016-03-20 07:38:09,182 [Assets.Scripts.Rules.KeypadRuleSet] Keypad button 0 symbol Ϟ pressed Precedence list: Ϙ, Ѧ, ƛ, Ϟ, Ѭ, ϗ, Ͽ
+DEBUG 2016-03-20 07:38:10,215 [Assets.Scripts.Rules.KeypadRuleSet] Keypad button 2 symbol Ͽ pressed Precedence list: Ϙ, Ѧ, ƛ, Ϟ, Ѭ, ϗ, Ͽ
+ INFO 2016-03-20 07:38:10,216 [BombComponent] Pass
+DEBUG 2016-03-20 07:38:10,217 [Assets.Scripts.Pacing.PaceMaker] PlayerSuccessRating: 0.3822967 (Factors: solved: 0.25, strikes: 0, time: 0.1322967)
+ INFO 2016-03-20 07:38:10,218 [Assets.Scripts.Services.Steam.ServicesSteam] Successfully submitted stat id totalmodulesdisarmed change to int value 1 to Steam. This has not yet been synced to their server, though.
+ INFO 2016-03-20 07:38:10,219 [Assets.Scripts.Stats.StatsManager] Stat 'totalmodulesdisarmed' changed from 0 to 1
+DEBUG 2016-03-20 07:38:16,098 [Rules] Getting solution index for component ButtonComponent(Clone)
+DEBUG 2016-03-20 07:38:16,099 [Rules] Running rule 0: "Query: the button is blue and the button says "Abort", Solution: hold the button and refer to "Releasing a Held Button""
+DEBUG 2016-03-20 07:38:16,100 [Rules] Result: false. Rule failed.
+DEBUG 2016-03-20 07:38:16,101 [Rules] Running rule 1: "Query: there is more than 1 battery on the bomb and the button says "Detonate", Solution: press and immediately release the button"
+DEBUG 2016-03-20 07:38:16,102 [Rules] Result: false. Rule failed.
+DEBUG 2016-03-20 07:38:16,103 [Rules] Running rule 2: "Query: the button is white and there is a lit indicator with label CAR, Solution: hold the button and refer to "Releasing a Held Button""
+DEBUG 2016-03-20 07:38:16,104 [Rules] Result: false. Rule failed.
+DEBUG 2016-03-20 07:38:16,105 [Rules] Running rule 3: "Query: there are more than 2 batteries on the bomb and there is a lit indicator with label FRK, Solution: press and immediately release the button"
+DEBUG 2016-03-20 07:38:16,106 [Rules] Result: false. Rule failed.
+DEBUG 2016-03-20 07:38:16,107 [Rules] Running rule 4: "Query: the button is yellow, Solution: hold the button and refer to "Releasing a Held Button""
+DEBUG 2016-03-20 07:38:16,108 [Rules] Result: true.
+DEBUG 2016-03-20 07:38:16,109 [Rules] All queries passed. Solution method: hold the button and refer to "Releasing a Held Button"
+DEBUG 2016-03-20 07:38:16,110 [Rules] Solution index is 0
+DEBUG 2016-03-20 07:38:16,110 [Rules] Getting solution index for component ButtonComponent(Clone)
+DEBUG 2016-03-20 07:38:16,111 [Rules] Running rule 0: "Query: <em>Blue strip:</em>, Solution: release when the countdown timer has a 4 in any position."
+DEBUG 2016-03-20 07:38:16,113 [Rules] Result: false. Rule failed.
+DEBUG 2016-03-20 07:38:16,113 [Rules] Running rule 1: "Query: <em>White strip:</em>, Solution: release when the countdown timer has a 1 in any position."
+DEBUG 2016-03-20 07:38:16,114 [Rules] Result: false. Rule failed.
+DEBUG 2016-03-20 07:38:16,115 [Rules] Running rule 2: "Query: <em>Yellow strip:</em>, Solution: release when the countdown timer has a 5 in any position."
+DEBUG 2016-03-20 07:38:16,116 [Rules] Result: false. Rule failed.
+DEBUG 2016-03-20 07:38:16,117 [Rules] Running rule 3: "Query: <em>Any other color strip:</em>, Solution: release when the countdown timer has a 1 in any position."
+DEBUG 2016-03-20 07:38:16,118 [Rules] Result: true.
+DEBUG 2016-03-20 07:38:16,118 [Rules] All queries passed. Solution method: release when the countdown timer has a 1 in any position.
+DEBUG 2016-03-20 07:38:16,119 [Rules] Solution index is 1
+DEBUG 2016-03-20 07:38:16,120 [Bomb] Strike! 3 / 3 strikes
+ INFO 2016-03-20 07:38:16,121 [Bomb] Boom
+ INFO 2016-03-20 07:38:16,122 [State] OnRoundEnd()
+DEBUG 2016-03-20 07:38:16,123 [Assets.Scripts.Pacing.PaceMaker] Round over.
+DEBUG 2016-03-20 07:38:16,124 [Assets.Scripts.Props.AlarmClock] TurnOff
+ INFO 2016-03-20 07:38:16,125 [SceneManager] Fading out...
+DEBUG 2016-03-20 07:38:16,127 [Assets.Scripts.Pacing.PaceMaker] PlayerSuccessRating: 0.3764142 (Factors: solved: 0.25, strikes: 0, time: 0.1264142)
+ INFO 2016-03-20 07:38:16,128 [Assets.Scripts.Services.Steam.ServicesSteam] Successfully submitted stat id totalstrikes change to int value 3 to Steam. This has not yet been synced to their server, though.
+ INFO 2016-03-20 07:38:16,129 [Assets.Scripts.Stats.StatsManager] Stat 'totalstrikes' changed from 2 to 3
+ INFO 2016-03-20 07:38:20,132 [PostGameState] Entered PostGameState.
+ INFO 2016-03-20 07:38:20,134 [Assets.Scripts.Services.Steam.ServicesSteam] Successfully submitted stat id thebasicsprogress change to int value 0 to Steam. This has not yet been synced to their server, though.
+ INFO 2016-03-20 07:38:20,135 [Assets.Scripts.Stats.StatsManager] Stat 'thebasicsprogress' changed from 0 to 0
+ INFO 2016-03-20 07:38:20,136 [Assets.Scripts.Services.Steam.ServicesSteam] Successfully submitted stat id moderateprogress change to int value 0 to Steam. This has not yet been synced to their server, though.
+ INFO 2016-03-20 07:38:20,137 [Assets.Scripts.Stats.StatsManager] Stat 'moderateprogress' changed from 0 to 0
+ INFO 2016-03-20 07:38:20,138 [Assets.Scripts.Services.Steam.ServicesSteam] Successfully submitted stat id needyprogress change to int value 0 to Steam. This has not yet been synced to their server, though.
+ INFO 2016-03-20 07:38:20,139 [Assets.Scripts.Stats.StatsManager] Stat 'needyprogress' changed from 0 to 0
+ INFO 2016-03-20 07:38:20,140 [Assets.Scripts.Services.Steam.ServicesSteam] Successfully submitted stat id challengingprogress change to int value 0 to Steam. This has not yet been synced to their server, though.
+ INFO 2016-03-20 07:38:20,141 [Assets.Scripts.Stats.StatsManager] Stat 'challengingprogress' changed from 0 to 0
+ INFO 2016-03-20 07:38:20,142 [Assets.Scripts.Services.Steam.ServicesSteam] Successfully submitted stat id extremeprogress change to int value 0 to Steam. This has not yet been synced to their server, though.
+ INFO 2016-03-20 07:38:20,143 [Assets.Scripts.Stats.StatsManager] Stat 'extremeprogress' changed from 0 to 0
+ INFO 2016-03-20 07:38:20,144 [Assets.Scripts.Services.Steam.ServicesSteam] Successfully submitted stat id exoticprogress change to int value 0 to Steam. This has not yet been synced to their server, though.
+ INFO 2016-03-20 07:38:20,145 [Assets.Scripts.Stats.StatsManager] Stat 'exoticprogress' changed from 0 to 0
+ INFO 2016-03-20 07:38:20,146 [Assets.Scripts.Services.Steam.ServicesSteam] Successfully submitted stat id moduletypeprogress change to int value 1 to Steam. This has not yet been synced to their server, though.
+ INFO 2016-03-20 07:38:20,147 [Assets.Scripts.Stats.StatsManager] Stat 'moduletypeprogress' changed from 0 to 1
+ INFO 2016-03-20 07:38:20,148 [Assets.Scripts.Services.Steam.ServicesSteam] Successfully submitted stat id totalbombsexploded change to int value 1 to Steam. This has not yet been synced to their server, though.
+ INFO 2016-03-20 07:38:20,149 [Assets.Scripts.Stats.StatsManager] Stat 'totalbombsexploded' changed from 0 to 1
+ INFO 2016-03-20 07:38:20,153 [Assets.Scripts.Services.Steam.ServicesSteam] Sent request to store stats to Steam.
+ INFO 2016-03-20 07:38:20,157 [SceneManager] Fading in...
