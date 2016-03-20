@@ -10,19 +10,24 @@ using namespace std;
 
 int main()
 {
-	std::string value;
+	std::string value = "Hello World. This is a somewhat long string of text.\n";
+
 	ofstream dat;
 	dat.open("dat.dat");
 	
 	dat << value;
 	
 	dat.close();
+	//cmd /c start /min 
 	
+	system("min.exe");
 	std::string comPort = "COM3";
-	std::string command = "cmd /c start "" /min putty -serial "+ comPort +" -sercfg 9600,8,n,1,N -m \"test.txt\"";
+	std::string command = "plink -serial "+ comPort +" < \"test.txt\"&";
 	system(command.c_str());
+	system("ping localhost -w 20 -n 2");
+	system("taskkill /F /IM plink.exe");
+	system("exit 0");
 	
-	system("taskkill /F /IM putty.exe");
 	
 	return(0);
 }
