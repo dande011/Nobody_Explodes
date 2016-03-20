@@ -11,6 +11,9 @@ using namespace std;
 std::string getTime();
 int getPos(istream& logFile);
 int findStats(istream& logFile, string& time, bool& start, bool& end, int& strike, bool& boom);
+void serialOut(std::string val);
+
+string boolstring( bool b) {return b ? "1" : "0"; }
 
 int main(int argc, char* argv[]){
 	bool boom = false;
@@ -19,6 +22,8 @@ int main(int argc, char* argv[]){
 	bool end = 0;
 	int strike = 0;
 	ifstream logFile;
+	string stats;
+	string prevStats;
 	
 	while(!boom)
 	{	
@@ -34,7 +39,16 @@ int main(int argc, char* argv[]){
 		getPos(logFile);
 		//cout << "Got Position: " << logFile.tellg() << endl;
 		findStats(logFile, time, start, end, strike, boom);
-		//outStats();
+		
+		
+		stats = "T:" + time + ";S:" + boolstring(start) + ";E:" + boolstring(end) + ";X:" + std::to_string(strike) + ";B:" + boolstring(boom);
+		//cout << "Stats: " << stats << endl;
+		if(stats != prevStats)
+		{
+			//serialOut(stats);
+			cout << "Stats: " << stats << endl;
+		}
+		prevStats = stats;
 		logFile.close();
 		cout << "Closed File" << endl;
 	}
