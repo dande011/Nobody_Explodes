@@ -10,7 +10,7 @@ using namespace std;
 
 std::string getTime();
 int getPos(istream& logFile);
-int findStats(istream& logFile, string& time, bool& start, bool& end, int& strike, bool& boom);
+int findStats(istream& logFile, string& time, bool& start, bool& end, int& strike, int& strikeTot, bool& boom);
 void serialOut(std::string val);
 
 string boolstring( bool b) {return b ? "1" : "0"; }
@@ -21,37 +21,56 @@ int main(int argc, char* argv[]){
 	bool start = 0;
 	bool end = 0;
 	int strike = 0;
+	int strikeTot = 0;
 	ifstream logFile;
+	ofstream logFileO;
+	ifstream logFileOrig;
 	string stats;
 	string prevStats;
+	string line;
 	
 	while(!boom)
 	{	
-		logFile.open("log\\ktane.log");
-		cout << "Opened file" << endl;
-		if( logFile.good() ){
-			/*while( logFile.good() ){
-				getline (logFile, line);
-				cout << line << endl;
-			}*/
+		logFileOrig.open("log\\ktane.log",std::fstream::binary);
+		logFileO.open("log\\copy.log",std::fstream::binary);
+		//cout << "Opened file" << endl;
+		if( logFileOrig.good() && logFileO.good() ){
+			const int len = 4096;
+			char buf[4096];
+			while(1)
+			{
+				if(logFileOrig.eof())
+					break;
+				logFileOrig.read(buf, len);
+				int nBytesRead = logFileOrig.gcount();
+				if(nBytesRead <= 0)
+					break;
+				logFileO.write(buf, nBytesRead);
+			}
 		}
+		else cout << "Unable to open file" << endl;
+		logFileOrig.close();
+		logFileO.close();
+		logFile.open("log\\ktane.log");
+		if(logFile.good());
 		else cout << "Unable to open file" << endl;
 		getPos(logFile);
 		//cout << "Got Position: " << logFile.tellg() << endl;
-		findStats(logFile, time, start, end, strike, boom);
+		findStats(logFile, time, start, end, strike, strikeTot, boom);
 		
 		
-		stats = "T:" + time + ";S:" + boolstring(start) + ";E:" + boolstring(end) + ";X:" + std::to_string(strike) + ";B:" + boolstring(boom);
+		stats = "T:" + time + ";S:" + boolstring(start) + ";E:" + boolstring(end) + ";X:" + std::to_string(strike) + ";Y:" + std::to_string(strikeTot) + ";B:" + boolstring(boom) + "\n";
 		//cout << "Stats: " << stats << endl;
 		if(stats != prevStats)
 		{
 			//serialOut(stats);
-			cout << "Stats: " << stats << endl;
+			//cout << "Stats: " << stats << endl;
 		}
 		prevStats = stats;
 		logFile.close();
-		cout << "Closed File" << endl;
+		//cout << "Closed File" << endl;
 	}
+	
 	return 0;
 }
 
@@ -103,19 +122,21 @@ int getPos(istream& logFile)
 {
 	//cout << "Begin getPos" << endl;
 	string line;
-	string currentTime = "2016-03-20 07:32:22"; //opposed to getTime()
+	string currentTime = "2016-03-20 07:32:56"; //opposed to getTime()
 	string extractedTime;
 	getline (logFile, line);
 	extractedTime = line.substr(9,19);
-	//cout << "about to enter loop" << endl;
+	//cout << "about to enter loop: " << extractedTime << ' ' << currentTime << ' ' << (extractedTime < currentTime) << endl;
 	while(extractedTime < currentTime)
 	{
 		getline (logFile, line);
-		if(line[0] != '\r' && line[0] != '<' && line[6] == '2')
+		//cout << line << endl;
+		if(line[0] != '\r' && line[3] != '<' && line[6] == '2')
 		{
-			//cout << "Firstchar: " << line[0] << endl;
+			//cout << "in loop" << endl;
+			//cout << line.substr(9.19) << endl;
 			extractedTime = line.substr(6,19);
-			//cout << line << endl;
+			//cout << extractedTime << endl;
 		}
 	}
 	//cout << "exited loop" << endl;
@@ -123,7 +144,7 @@ int getPos(istream& logFile)
 	return logFile.tellg();
 }
 
-int findStats(istream& logFile, string& time, bool& start, bool& end, int& strike, bool& boom)
+int findStats(istream& logFile, string& time, bool& start, bool& end, int& strike, int& strikeTot, bool& boom)
 {
 	//cout << "Begin findStats()" << endl;
 	string line;
@@ -139,26 +160,31 @@ int findStats(istream& logFile, string& time, bool& start, bool& end, int& strik
 			found = line.find(" Time: ");
 			if (found!=static_cast<int>(std::string::npos)){
 				time = line.substr(found+7,3);
-				cout << "Time: " << time << endl;
+				stringstream buffer;
+				buffer << setfill('0') << setw(3) << time;
+				time = buffer.str();
+				//cout << "Time: " << time << endl;
 			}
 		}
 		//cout << "Start" << endl;
 		found = line.find("Round Start!");
 		if (found!=static_cast<int>(std::string::npos)) {
 			start = 1;
-			cout << "Round Start!" << endl;
+			//cout << "Round Start!" << endl;
 		}
 		//cout << "Over" << endl;
 		found = line.find("Round Over.");
 		if (found!=static_cast<int>(std::string::npos)){
 			end = 1;
-			cout << "Round Over." << endl;
+			//cout << "Round Over." << endl;
 		}
 		found = line.find("Strike! ");
 		if (found!=static_cast<int>(std::string::npos)){
-			if(line[found+8]-48>strike)
+			if(line[found+8]-48 > strike)
 				strike = line[found+8]-48;
-			cout << "Strike: " << strike << endl;
+			if(line[found+11]-48 > strikeTot)
+				strikeTot = line[found+11]-48;
+			//cout << "Strike: " << strike << endl;
 		}
 		found = line.find("Boom");
 		if (found!=static_cast<int>(std::string::npos)){
