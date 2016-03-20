@@ -64,7 +64,7 @@ int main(int argc, char* argv[]){
 		if(stats != prevStats)
 		{
 			//serialOut(stats);
-			//cout << "Stats: " << stats << endl;
+			cout << "Stats: " << stats << endl;
 		}
 		prevStats = stats;
 		logFile.close();
@@ -160,9 +160,6 @@ int findStats(istream& logFile, string& time, bool& start, bool& end, int& strik
 			found = line.find(" Time: ");
 			if (found!=static_cast<int>(std::string::npos)){
 				time = line.substr(found+7,3);
-				stringstream buffer;
-				buffer << setfill('0') << setw(3) << time;
-				time = buffer.str();
 				//cout << "Time: " << time << endl;
 			}
 		}
@@ -182,8 +179,10 @@ int findStats(istream& logFile, string& time, bool& start, bool& end, int& strik
 		if (found!=static_cast<int>(std::string::npos)){
 			if(line[found+8]-48 > strike)
 				strike = line[found+8]-48;
-			if(line[found+11]-48 > strikeTot)
-				strikeTot = line[found+11]-48;
+			//cout << line << endl;
+			//cout << found << ' ' << line[49] << endl;
+			if(line[49]-48 > strikeTot)
+				strikeTot = line[49]-48;
 			//cout << "Strike: " << strike << endl;
 		}
 		found = line.find("Boom");
