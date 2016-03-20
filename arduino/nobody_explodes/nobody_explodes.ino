@@ -1,9 +1,7 @@
-// all this file does is beep a buzzer
-
 int buzzer = 11;
 //delay in milliseconds;
 int del = 500;
-int tim = 1000;
+int tim = 0;
 
 void setup() {
   pinMode(buzzer, OUTPUT);
@@ -11,14 +9,11 @@ void setup() {
 }
 
 void loop() {
-  analogWrite(buzzer, 150);
-  delay(del);
-  if(del > 0){
-    del-=25;
+  if (tim <= 15){
+    analogWrite(buzzer, 150);
+    delay(del);
     analogWrite(buzzer, 0);
+    delay(del);
   }
-  else
-    del=0;
-  delay(del);
 
 }
