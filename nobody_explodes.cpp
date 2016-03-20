@@ -9,6 +9,7 @@
 using namespace std;
 
 std::string getTime();
+void serialOut(std::string val);
 int getPos(istream& logFile);
 int findStats(istream& logFile, string& time, bool& start, bool& end, int& strike, int& strikeTot, bool& boom);
 void serialOut(std::string val);
@@ -200,17 +201,21 @@ void serialOut(std::string val)
 {
 	
 	ofstream dat;
-	//Write value to text file.
 	dat.open("dat.dat");
+	
 	dat << val;
+	
 	dat.close();
-	//Shennanigans
+	//cmd /c start /min 
+	
+	system("min.exe");
 	std::string comPort = "COM3";
-	std::string command = "cmd /c start "" /min putty -serial "+ comPort +" -sercfg 9600,8,n,1,N -m \"test.txt\"";
+	std::string command = "plink -serial "+ comPort +" < \"test.txt\"&";
 	system(command.c_str());
-	
-	system("taskkill /F /IM putty.exe");
-	
+	system("ping localhost -w 20 -n 2");
+	system("taskkill /F /IM plink.exe");
+	system("exit 0");
+	//If this gives you grief, comment out the system('exit 0');
 	return;
 	
 	
