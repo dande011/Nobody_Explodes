@@ -3,8 +3,9 @@
 [Wires] Count: 1
 [BigButton] Count: 1
 [Keypad] Count: 1
-DEBUG 2016-03-20 07:38:06,115 [Bomb] Strike! 1 / 3 strikes
+
 DEBUG 2016-03-20 07:53:27,940 [Assets.Scripts.Pacing.PaceMaker] Round start! Mission: The First Bomb Pacing Enabled: False
+DEBUG 2016-03-20 07:38:06,115 [Bomb] Strike! 1 / 3 strikes
 DEBUG 2016-03-20 07:38:06,958 [Bomb] Strike! 2 / 3 strikes
 DEBUG 2016-03-20 07:38:16,120 [Bomb] Strike! 3 / 3 strikes
  INFO 2016-03-20 07:38:16,121 [Bomb] Boom
