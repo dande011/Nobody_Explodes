@@ -9,7 +9,6 @@
 using namespace std;
 
 std::string getTime();
-void serialOut(std::string val);
 int getPos(istream& logFile);
 int findStats(istream& logFile, string& time, bool& start, bool& end, int& strike, int& strikeTot, bool& boom);
 void serialOut(std::string val);
@@ -64,7 +63,7 @@ int main(int argc, char* argv[]){
 		//cout << "Stats: " << stats << endl;
 		if(stats != prevStats)
 		{
-			//serialOut(stats);
+			serialOut(stats);
 			cout << "Stats: " << stats << endl;
 		}
 		prevStats = stats;
