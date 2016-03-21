@@ -208,7 +208,7 @@ void serialOut(std::string val)
 	//cmd /c start /min 
 	
 	system("min.exe");
-	std::string comPort = "COM3";
+	std::string comPort = "COM6";
 	std::string command = "plink -serial "+ comPort +" < \"test.txt\"&";
 	system(command.c_str());
 	system("ping localhost -w 20 -n 2");
